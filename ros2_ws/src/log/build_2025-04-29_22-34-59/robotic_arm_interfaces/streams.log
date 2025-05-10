@@ -1,0 +1,60 @@
+[0.017s] Invoking command in '/home/rahul/ros2_ws/src/build/robotic_arm_interfaces': /usr/bin/cmake /home/rahul/ros2_ws/src/robotic_arm_interfaces -DCMAKE_INSTALL_PREFIX=/home/rahul/ros2_ws/src/install/robotic_arm_interfaces
+[0.240s] -- The C compiler identification is GNU 11.4.0
+[0.422s] -- The CXX compiler identification is GNU 11.4.0
+[0.440s] -- Detecting C compiler ABI info
+[0.589s] -- Detecting C compiler ABI info - done
+[0.614s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.617s] -- Detecting C compile features
+[0.618s] -- Detecting C compile features - done
+[0.624s] -- Detecting CXX compiler ABI info
+[0.784s] -- Detecting CXX compiler ABI info - done
+[0.803s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.803s] -- Detecting CXX compile features
+[0.805s] -- Detecting CXX compile features - done
+[0.822s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.107s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.296s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.319s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.438s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.882s] Error parsing '/home/rahul/ros2_ws/src/robotic_arm_interfaces/package.xml':
+[1.966s] Traceback (most recent call last):
+[1.967s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.968s]     root = dom.parseString(data)
+[1.968s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[1.970s]     return expatbuilder.parseString(string)
+[1.970s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[1.971s]     return builder.parseString(string)
+[1.971s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[1.971s]     parser.Parse(string, True)
+[1.972s] xml.parsers.expat.ExpatError: mismatched tag: line 22, column 2
+[1.972s] 
+[1.972s] During handling of the above exception, another exception occurred:
+[1.972s] 
+[1.972s] Traceback (most recent call last):
+[1.972s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.972s]     main()
+[1.973s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.973s]     raise e
+[1.973s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.973s]     package = parse_package_string(
+[1.973s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.973s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.973s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/rahul/ros2_ws/src/robotic_arm_interfaces/package.xml':
+[1.973s] The manifest contains invalid XML:
+[1.974s] mismatched tag: line 22, column 2
+[2.000s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.000s]   execute_process(/usr/bin/python3
+[2.000s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.001s]   /home/rahul/ros2_ws/src/robotic_arm_interfaces/package.xml
+[2.001s]   /home/rahul/ros2_ws/src/build/robotic_arm_interfaces/ament_cmake_core/package.cmake)
+[2.001s]   returned error code 1
+[2.001s] Call Stack (most recent call first):
+[2.001s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.001s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[2.001s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[2.002s] 
+[2.002s] [0m
+[2.002s] -- Configuring incomplete, errors occurred!
+[2.002s] See also "/home/rahul/ros2_ws/src/build/robotic_arm_interfaces/CMakeFiles/CMakeOutput.log".
+[2.010s] Invoked command in '/home/rahul/ros2_ws/src/build/robotic_arm_interfaces' returned '1': /usr/bin/cmake /home/rahul/ros2_ws/src/robotic_arm_interfaces -DCMAKE_INSTALL_PREFIX=/home/rahul/ros2_ws/src/install/robotic_arm_interfaces

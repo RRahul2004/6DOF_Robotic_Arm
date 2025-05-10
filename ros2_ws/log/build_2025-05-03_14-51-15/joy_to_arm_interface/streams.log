@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/home/rahul/ros2_ws/build/joy_to_arm_interface': CMAKE_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/src/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/motor_msgs:/home/rahul/ros2_ws/install/ps4_servo_control:/home/rahul/ros2_ws/install/robotic_control:/home/rahul/ros2_ws/install/robot_arm_control:/opt/ros/humble /usr/bin/cmake --build /home/rahul/ros2_ws/build/joy_to_arm_interface -- -j4 -l4
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target ps4_control_node[0m
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/ps4_control_node.dir/src/ps4_control_node.cpp.o[0m
+[14.762s] [100%] [32m[1mLinking CXX executable ps4_control_node[0m
+[15.637s] [100%] Built target ps4_control_node
+[15.656s] Invoked command in '/home/rahul/ros2_ws/build/joy_to_arm_interface' returned '0': CMAKE_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/src/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/motor_msgs:/home/rahul/ros2_ws/install/ps4_servo_control:/home/rahul/ros2_ws/install/robotic_control:/home/rahul/ros2_ws/install/robot_arm_control:/opt/ros/humble /usr/bin/cmake --build /home/rahul/ros2_ws/build/joy_to_arm_interface -- -j4 -l4
+[15.658s] Invoking command in '/home/rahul/ros2_ws/build/joy_to_arm_interface': CMAKE_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/src/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/motor_msgs:/home/rahul/ros2_ws/install/ps4_servo_control:/home/rahul/ros2_ws/install/robotic_control:/home/rahul/ros2_ws/install/robot_arm_control:/opt/ros/humble /usr/bin/cmake --install /home/rahul/ros2_ws/build/joy_to_arm_interface
+[15.672s] -- Install configuration: ""
+[15.675s] -- Installing: /home/rahul/ros2_ws/install/joy_to_arm_interface/lib/joy_to_arm_interface/ps4_control_node
+[15.682s] -- Set runtime path of "/home/rahul/ros2_ws/install/joy_to_arm_interface/lib/joy_to_arm_interface/ps4_control_node" to ""
+[15.682s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/package_run_dependencies/joy_to_arm_interface
+[15.683s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/parent_prefix_path/joy_to_arm_interface
+[15.683s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/ament_prefix_path.sh
+[15.683s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/ament_prefix_path.dsv
+[15.683s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/path.sh
+[15.683s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/path.dsv
+[15.684s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.bash
+[15.684s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.sh
+[15.684s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.zsh
+[15.684s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.dsv
+[15.684s] -- Installing: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/package.dsv
+[15.684s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/packages/joy_to_arm_interface
+[15.685s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/cmake/joy_to_arm_interfaceConfig.cmake
+[15.685s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/cmake/joy_to_arm_interfaceConfig-version.cmake
+[15.685s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/package.xml
+[15.688s] Invoked command in '/home/rahul/ros2_ws/build/joy_to_arm_interface' returned '0': CMAKE_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/src/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/motor_msgs:/home/rahul/ros2_ws/install/ps4_servo_control:/home/rahul/ros2_ws/install/robotic_control:/home/rahul/ros2_ws/install/robot_arm_control:/opt/ros/humble /usr/bin/cmake --install /home/rahul/ros2_ws/build/joy_to_arm_interface

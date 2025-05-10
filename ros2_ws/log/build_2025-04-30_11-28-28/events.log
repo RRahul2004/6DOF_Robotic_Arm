@@ -1,0 +1,346 @@
+[0.000000] (-) TimerEvent: {}
+[0.000545] (robotic_arm_interfaces) JobQueued: {'identifier': 'robotic_arm_interfaces', 'dependencies': OrderedDict()}
+[0.001549] (joy_to_arm_interface) JobQueued: {'identifier': 'joy_to_arm_interface', 'dependencies': OrderedDict([('robotic_arm_interfaces', '/home/rahul/ros2_ws/install/robotic_arm_interfaces')])}
+[0.001642] (robotic_arm_interfaces) JobStarted: {'identifier': 'robotic_arm_interfaces'}
+[0.021850] (robotic_arm_interfaces) JobProgress: {'identifier': 'robotic_arm_interfaces', 'progress': 'cmake'}
+[0.023176] (robotic_arm_interfaces) JobProgress: {'identifier': 'robotic_arm_interfaces', 'progress': 'build'}
+[0.024502] (robotic_arm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rahul/ros2_ws/build/robotic_arm_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/rahul/ros2_ws/build/robotic_arm_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'rahul'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/rahul/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4449'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rahul/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rahul'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-XPS-13-9350:@/tmp/.ICE-unix/1963,unix/rahul-XPS-13-9350:/tmp/.ICE-unix/1963'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669f3903_f425_4571_a053_9aabbb3e26d2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A7FP52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/ros2_ws/build/robotic_arm_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble')]), 'shell': False}
+[0.099632] (-) TimerEvent: {}
+[0.170029] (robotic_arm_interfaces) StdoutLine: {'line': b'[  9%] Built target robotic_arm_interfaces__rosidl_generator_c\n'}
+[0.171656] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 12%] Built target robotic_arm_interfaces__cpp\n'}
+[0.201962] (-) TimerEvent: {}
+[0.204334] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_robotic_arm_interfaces\n'}
+[0.266139] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 22%] Built target robotic_arm_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.269595] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 32%] Built target robotic_arm_interfaces__rosidl_typesupport_cpp\n'}
+[0.297029] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 41%] Built target robotic_arm_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.298442] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 51%] Built target robotic_arm_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.303204] (-) TimerEvent: {}
+[0.329910] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 61%] Built target robotic_arm_interfaces__rosidl_typesupport_c\n'}
+[0.341035] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 70%] Built target robotic_arm_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.377173] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 70%] Built target robotic_arm_interfaces\n'}
+[0.403326] (-) TimerEvent: {}
+[0.416783] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 74%] Built target robotic_arm_interfaces__py\n'}
+[0.458367] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 80%] Built target robotic_arm_interfaces__rosidl_generator_py\n'}
+[0.506138] (-) TimerEvent: {}
+[0.556582] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 87%] Built target robotic_arm_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.558499] (robotic_arm_interfaces) StdoutLine: {'line': b'[ 93%] Built target robotic_arm_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.570936] (robotic_arm_interfaces) StdoutLine: {'line': b'[100%] Built target robotic_arm_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.606251] (-) TimerEvent: {}
+[0.707656] (-) TimerEvent: {}
+[0.808025] (-) TimerEvent: {}
+[0.909057] (-) TimerEvent: {}
+[1.009683] (-) TimerEvent: {}
+[1.023054] (robotic_arm_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.025117] (robotic_arm_interfaces) StdoutLine: {'line': b'writing robotic_arm_interfaces.egg-info/PKG-INFO\n'}
+[1.027288] (robotic_arm_interfaces) StdoutLine: {'line': b'writing dependency_links to robotic_arm_interfaces.egg-info/dependency_links.txt\n'}
+[1.027590] (robotic_arm_interfaces) StdoutLine: {'line': b'writing top-level names to robotic_arm_interfaces.egg-info/top_level.txt\n'}
+[1.032717] (robotic_arm_interfaces) StdoutLine: {'line': b"reading manifest file 'robotic_arm_interfaces.egg-info/SOURCES.txt'\n"}
+[1.034633] (robotic_arm_interfaces) StdoutLine: {'line': b"writing manifest file 'robotic_arm_interfaces.egg-info/SOURCES.txt'\n"}
+[1.101421] (robotic_arm_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_robotic_arm_interfaces_egg\n'}
+[1.109811] (-) TimerEvent: {}
+[1.128099] (robotic_arm_interfaces) CommandEnded: {'returncode': 0}
+[1.131011] (robotic_arm_interfaces) JobProgress: {'identifier': 'robotic_arm_interfaces', 'progress': 'install'}
+[1.146703] (robotic_arm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rahul/ros2_ws/build/robotic_arm_interfaces'], 'cwd': '/home/rahul/ros2_ws/build/robotic_arm_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'rahul'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/rahul/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4449'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rahul/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rahul'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-XPS-13-9350:@/tmp/.ICE-unix/1963,unix/rahul-XPS-13-9350:/tmp/.ICE-unix/1963'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669f3903_f425_4571_a053_9aabbb3e26d2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A7FP52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/ros2_ws/build/robotic_arm_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble')]), 'shell': False}
+[1.163630] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.164515] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/ament_index/resource_index/rosidl_interfaces/robotic_arm_interfaces\n'}
+[1.164766] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces\n'}
+[1.165348] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg\n'}
+[1.165687] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/position_robotic_arm.h\n'}
+[1.165854] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.166007] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail\n'}
+[1.166970] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__functions.h\n'}
+[1.167259] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__type_support.h\n'}
+[1.167412] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__functions.c\n'}
+[1.168588] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__struct.h\n'}
+[1.168983] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/environment/library_path.sh\n'}
+[1.169174] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/environment/library_path.dsv\n'}
+[1.169440] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/lib/librobotic_arm_interfaces__rosidl_generator_c.so\n'}
+[1.170088] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces\n'}
+[1.170670] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg\n'}
+[1.172234] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail\n'}
+[1.172459] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__rosidl_typesupport_fastrtps_c.h\n'}
+[1.172620] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.173290] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/lib/librobotic_arm_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.174245] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces\n'}
+[1.174972] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg\n'}
+[1.175448] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail\n'}
+[1.175873] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__type_support.c\n'}
+[1.176447] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__rosidl_typesupport_introspection_c.h\n'}
+[1.176672] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.177963] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/lib/librobotic_arm_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.179198] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/lib/librobotic_arm_interfaces__rosidl_typesupport_c.so\n'}
+[1.179509] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces\n'}
+[1.180878] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg\n'}
+[1.182472] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.183370] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail\n'}
+[1.183560] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__builder.hpp\n'}
+[1.183706] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__type_support.hpp\n'}
+[1.183848] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__struct.hpp\n'}
+[1.184456] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__traits.hpp\n'}
+[1.184640] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/position_robotic_arm.hpp\n'}
+[1.184792] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces\n'}
+[1.185073] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg\n'}
+[1.185364] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail\n'}
+[1.185588] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.185735] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/dds_fastrtps\n'}
+[1.185883] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.186336] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/lib/librobotic_arm_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.186747] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces\n'}
+[1.187816] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg\n'}
+[1.189452] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail\n'}
+[1.189690] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__type_support.cpp\n'}
+[1.189869] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/include/robotic_arm_interfaces/robotic_arm_interfaces/msg/detail/position_robotic_arm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.191428] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/lib/librobotic_arm_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.191683] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/lib/librobotic_arm_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.192444] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/environment/pythonpath.sh\n'}
+[1.192952] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/environment/pythonpath.dsv\n'}
+[1.193543] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.193716] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.193852] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.195242] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.195935] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.196794] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces\n'}
+[1.197185] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/_robotic_arm_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.197690] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/msg\n'}
+[1.197928] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/msg/_position_robotic_arm_s.c\n'}
+[1.198090] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/msg/_position_robotic_arm.py\n'}
+[1.198213] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/msg/__init__.py\n'}
+[1.198337] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/librobotic_arm_interfaces__rosidl_generator_py.so\n'}
+[1.198471] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/_robotic_arm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.198593] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/robotic_arm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.198721] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/_robotic_arm_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.198855] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/robotic_arm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.199304] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/__init__.py\n'}
+[1.199466] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/robotic_arm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.213233] (-) TimerEvent: {}
+[1.291455] (robotic_arm_interfaces) StdoutLine: {'line': b"Listing '/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces'...\n"}
+[1.291790] (robotic_arm_interfaces) StdoutLine: {'line': b"Listing '/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/msg'...\n"}
+[1.306645] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/robotic_arm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.310119] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/robotic_arm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.312072] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages/robotic_arm_interfaces/robotic_arm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.313520] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/lib/librobotic_arm_interfaces__rosidl_generator_py.so\n'}
+[1.313777] (-) TimerEvent: {}
+[1.314992] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/msg/PositionRoboticArm.idl\n'}
+[1.315634] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/msg/PositionRoboticArm.msg\n'}
+[1.316448] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/ament_index/resource_index/package_run_dependencies/robotic_arm_interfaces\n'}
+[1.316912] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/ament_index/resource_index/parent_prefix_path/robotic_arm_interfaces\n'}
+[1.317095] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/environment/ament_prefix_path.sh\n'}
+[1.317931] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.318190] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/environment/path.sh\n'}
+[1.318347] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/environment/path.dsv\n'}
+[1.319313] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/local_setup.bash\n'}
+[1.319540] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/local_setup.sh\n'}
+[1.319678] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/local_setup.zsh\n'}
+[1.320292] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/local_setup.dsv\n'}
+[1.320536] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/package.dsv\n'}
+[1.322880] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/ament_index/resource_index/packages/robotic_arm_interfaces\n'}
+[1.324136] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/export_robotic_arm_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.324537] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/export_robotic_arm_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.325325] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/export_robotic_arm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.325553] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/export_robotic_arm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.326230] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/robotic_arm_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.326489] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/robotic_arm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.327141] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/robotic_arm_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.327360] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/robotic_arm_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.328401] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/export_robotic_arm_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.329339] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/export_robotic_arm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.329828] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/export_robotic_arm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.330250] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/robotic_arm_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.330437] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/robotic_arm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.331129] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/robotic_arm_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.331368] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/robotic_arm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.332551] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/export_robotic_arm_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.333094] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/export_robotic_arm_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.333421] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.333617] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.333803] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.334024] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.334228] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.334413] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.334592] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.334992] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/robotic_arm_interfacesConfig.cmake\n'}
+[1.335203] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/cmake/robotic_arm_interfacesConfig-version.cmake\n'}
+[1.335383] (robotic_arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/robotic_arm_interfaces/share/robotic_arm_interfaces/package.xml\n'}
+[1.338082] (robotic_arm_interfaces) CommandEnded: {'returncode': 0}
+[1.399549] (robotic_arm_interfaces) JobEnded: {'identifier': 'robotic_arm_interfaces', 'rc': 0}
+[1.401910] (joy_to_arm_interface) JobStarted: {'identifier': 'joy_to_arm_interface'}
+[1.413903] (-) TimerEvent: {}
+[1.417302] (joy_to_arm_interface) JobProgress: {'identifier': 'joy_to_arm_interface', 'progress': 'cmake'}
+[1.418924] (joy_to_arm_interface) JobProgress: {'identifier': 'joy_to_arm_interface', 'progress': 'build'}
+[1.419705] (joy_to_arm_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rahul/ros2_ws/build/joy_to_arm_interface', '--', '-j4', '-l4'], 'cwd': '/home/rahul/ros2_ws/build/joy_to_arm_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'rahul'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/rahul/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4449'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rahul/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rahul'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-XPS-13-9350:@/tmp/.ICE-unix/1963,unix/rahul-XPS-13-9350:/tmp/.ICE-unix/1963'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669f3903_f425_4571_a053_9aabbb3e26d2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A7FP52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/ros2_ws/build/joy_to_arm_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble')]), 'shell': False}
+[1.516296] (-) TimerEvent: {}
+[1.548052] (joy_to_arm_interface) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ps4_control_node.dir/src/ps4_control_node.cpp.o\x1b[0m\n'}
+[1.616422] (-) TimerEvent: {}
+[1.717024] (-) TimerEvent: {}
+[1.817438] (-) TimerEvent: {}
+[1.917994] (-) TimerEvent: {}
+[2.018446] (-) TimerEvent: {}
+[2.118830] (-) TimerEvent: {}
+[2.219505] (-) TimerEvent: {}
+[2.319914] (-) TimerEvent: {}
+[2.420331] (-) TimerEvent: {}
+[2.520738] (-) TimerEvent: {}
+[2.621161] (-) TimerEvent: {}
+[2.721584] (-) TimerEvent: {}
+[2.822846] (-) TimerEvent: {}
+[2.923244] (-) TimerEvent: {}
+[3.023826] (-) TimerEvent: {}
+[3.124236] (-) TimerEvent: {}
+[3.224639] (-) TimerEvent: {}
+[3.325251] (-) TimerEvent: {}
+[3.425646] (-) TimerEvent: {}
+[3.526022] (-) TimerEvent: {}
+[3.626412] (-) TimerEvent: {}
+[3.726809] (-) TimerEvent: {}
+[3.827202] (-) TimerEvent: {}
+[3.927701] (-) TimerEvent: {}
+[4.028238] (-) TimerEvent: {}
+[4.128686] (-) TimerEvent: {}
+[4.229200] (-) TimerEvent: {}
+[4.329815] (-) TimerEvent: {}
+[4.431539] (-) TimerEvent: {}
+[4.531985] (-) TimerEvent: {}
+[4.632399] (-) TimerEvent: {}
+[4.732794] (-) TimerEvent: {}
+[4.833184] (-) TimerEvent: {}
+[4.933627] (-) TimerEvent: {}
+[5.034011] (-) TimerEvent: {}
+[5.134511] (-) TimerEvent: {}
+[5.234877] (-) TimerEvent: {}
+[5.335285] (-) TimerEvent: {}
+[5.435650] (-) TimerEvent: {}
+[5.536200] (-) TimerEvent: {}
+[5.636617] (-) TimerEvent: {}
+[5.737026] (-) TimerEvent: {}
+[5.837433] (-) TimerEvent: {}
+[5.937821] (-) TimerEvent: {}
+[6.038344] (-) TimerEvent: {}
+[6.138762] (-) TimerEvent: {}
+[6.239781] (-) TimerEvent: {}
+[6.340316] (-) TimerEvent: {}
+[6.441078] (-) TimerEvent: {}
+[6.541669] (-) TimerEvent: {}
+[6.642086] (-) TimerEvent: {}
+[6.742497] (-) TimerEvent: {}
+[6.843106] (-) TimerEvent: {}
+[6.943691] (-) TimerEvent: {}
+[7.044295] (-) TimerEvent: {}
+[7.144680] (-) TimerEvent: {}
+[7.245056] (-) TimerEvent: {}
+[7.345453] (-) TimerEvent: {}
+[7.445870] (-) TimerEvent: {}
+[7.546396] (-) TimerEvent: {}
+[7.646815] (-) TimerEvent: {}
+[7.747210] (-) TimerEvent: {}
+[7.847646] (-) TimerEvent: {}
+[7.948047] (-) TimerEvent: {}
+[8.048431] (-) TimerEvent: {}
+[8.148832] (-) TimerEvent: {}
+[8.249219] (-) TimerEvent: {}
+[8.349639] (-) TimerEvent: {}
+[8.450020] (-) TimerEvent: {}
+[8.550391] (-) TimerEvent: {}
+[8.650795] (-) TimerEvent: {}
+[8.751247] (-) TimerEvent: {}
+[8.851618] (-) TimerEvent: {}
+[8.952040] (-) TimerEvent: {}
+[9.052498] (-) TimerEvent: {}
+[9.152912] (-) TimerEvent: {}
+[9.253276] (-) TimerEvent: {}
+[9.353657] (-) TimerEvent: {}
+[9.454036] (-) TimerEvent: {}
+[9.554417] (-) TimerEvent: {}
+[9.654749] (-) TimerEvent: {}
+[9.755102] (-) TimerEvent: {}
+[9.855521] (-) TimerEvent: {}
+[9.955993] (-) TimerEvent: {}
+[10.056345] (-) TimerEvent: {}
+[10.156735] (-) TimerEvent: {}
+[10.257287] (-) TimerEvent: {}
+[10.357700] (-) TimerEvent: {}
+[10.458059] (-) TimerEvent: {}
+[10.558410] (-) TimerEvent: {}
+[10.658734] (-) TimerEvent: {}
+[10.759098] (-) TimerEvent: {}
+[10.859499] (-) TimerEvent: {}
+[10.959884] (-) TimerEvent: {}
+[11.060416] (-) TimerEvent: {}
+[11.160795] (-) TimerEvent: {}
+[11.261186] (-) TimerEvent: {}
+[11.361727] (-) TimerEvent: {}
+[11.462153] (-) TimerEvent: {}
+[11.562546] (-) TimerEvent: {}
+[11.663018] (-) TimerEvent: {}
+[11.763397] (-) TimerEvent: {}
+[11.863812] (-) TimerEvent: {}
+[11.964227] (-) TimerEvent: {}
+[12.064642] (-) TimerEvent: {}
+[12.165055] (-) TimerEvent: {}
+[12.265453] (-) TimerEvent: {}
+[12.365872] (-) TimerEvent: {}
+[12.466245] (-) TimerEvent: {}
+[12.566624] (-) TimerEvent: {}
+[12.666985] (-) TimerEvent: {}
+[12.767357] (-) TimerEvent: {}
+[12.867754] (-) TimerEvent: {}
+[12.971306] (-) TimerEvent: {}
+[13.072362] (-) TimerEvent: {}
+[13.174257] (-) TimerEvent: {}
+[13.274646] (-) TimerEvent: {}
+[13.374960] (-) TimerEvent: {}
+[13.475360] (-) TimerEvent: {}
+[13.575744] (-) TimerEvent: {}
+[13.676058] (-) TimerEvent: {}
+[13.776411] (-) TimerEvent: {}
+[13.876778] (-) TimerEvent: {}
+[13.977113] (-) TimerEvent: {}
+[14.077468] (-) TimerEvent: {}
+[14.177892] (-) TimerEvent: {}
+[14.278644] (-) TimerEvent: {}
+[14.379070] (-) TimerEvent: {}
+[14.479465] (-) TimerEvent: {}
+[14.579980] (-) TimerEvent: {}
+[14.680843] (-) TimerEvent: {}
+[14.781222] (-) TimerEvent: {}
+[14.881554] (-) TimerEvent: {}
+[14.981937] (-) TimerEvent: {}
+[15.082324] (-) TimerEvent: {}
+[15.182731] (-) TimerEvent: {}
+[15.283174] (-) TimerEvent: {}
+[15.383514] (-) TimerEvent: {}
+[15.468914] (joy_to_arm_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ps4_control_node\x1b[0m\n'}
+[15.483672] (-) TimerEvent: {}
+[15.584049] (-) TimerEvent: {}
+[15.684730] (-) TimerEvent: {}
+[15.785580] (-) TimerEvent: {}
+[15.887059] (-) TimerEvent: {}
+[15.987594] (-) TimerEvent: {}
+[16.087983] (-) TimerEvent: {}
+[16.188422] (-) TimerEvent: {}
+[16.289024] (-) TimerEvent: {}
+[16.365806] (joy_to_arm_interface) StdoutLine: {'line': b'[100%] Built target ps4_control_node\n'}
+[16.384211] (joy_to_arm_interface) CommandEnded: {'returncode': 0}
+[16.385544] (joy_to_arm_interface) JobProgress: {'identifier': 'joy_to_arm_interface', 'progress': 'install'}
+[16.386881] (joy_to_arm_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rahul/ros2_ws/build/joy_to_arm_interface'], 'cwd': '/home/rahul/ros2_ws/build/joy_to_arm_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'rahul'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/rahul/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4449'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rahul/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rahul'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-XPS-13-9350:@/tmp/.ICE-unix/1963,unix/rahul-XPS-13-9350:/tmp/.ICE-unix/1963'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669f3903_f425_4571_a053_9aabbb3e26d2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A7FP52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/ros2_ws/build/joy_to_arm_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble')]), 'shell': False}
+[16.389207] (-) TimerEvent: {}
+[16.399281] (joy_to_arm_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.399931] (joy_to_arm_interface) StdoutLine: {'line': b'-- Installing: /home/rahul/ros2_ws/install/joy_to_arm_interface/lib/joy_to_arm_interface/ps4_control_node\n'}
+[16.406161] (joy_to_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/rahul/ros2_ws/install/joy_to_arm_interface/lib/joy_to_arm_interface/ps4_control_node" to ""\n'}
+[16.406846] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/package_run_dependencies/joy_to_arm_interface\n'}
+[16.407220] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/parent_prefix_path/joy_to_arm_interface\n'}
+[16.407393] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/ament_prefix_path.sh\n'}
+[16.407535] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/ament_prefix_path.dsv\n'}
+[16.407670] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/path.sh\n'}
+[16.407819] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/path.dsv\n'}
+[16.407976] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.bash\n'}
+[16.408118] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.sh\n'}
+[16.408245] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.zsh\n'}
+[16.408458] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.dsv\n'}
+[16.408603] (joy_to_arm_interface) StdoutLine: {'line': b'-- Installing: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/package.dsv\n'}
+[16.408896] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/packages/joy_to_arm_interface\n'}
+[16.409438] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/cmake/joy_to_arm_interfaceConfig.cmake\n'}
+[16.409588] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/cmake/joy_to_arm_interfaceConfig-version.cmake\n'}
+[16.409722] (joy_to_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/package.xml\n'}
+[16.412005] (joy_to_arm_interface) CommandEnded: {'returncode': 0}
+[16.440704] (joy_to_arm_interface) JobEnded: {'identifier': 'joy_to_arm_interface', 'rc': 0}
+[16.442691] (-) EventReactorShutdown: {}

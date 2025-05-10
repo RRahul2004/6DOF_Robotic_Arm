@@ -1,0 +1,38 @@
+[0.029s] Invoking command in '/home/rahul/robotic_arm/f401re_micro_ros/build/arm_bayes_example': /usr/bin/cmake /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Examples/ARM/arm_bayes_example -DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/f401re_micro_ros/install/arm_bayes_example
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.294s] -- The CXX compiler identification is GNU 11.4.0
+[0.310s] -- Detecting C compiler ABI info
+[0.472s] -- Detecting C compiler ABI info - done
+[0.491s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.491s] -- Detecting C compile features
+[0.492s] -- Detecting C compile features - done
+[0.499s] -- Detecting CXX compiler ABI info
+[0.684s] -- Detecting CXX compiler ABI info - done
+[0.706s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.708s] -- Detecting CXX compile features
+[0.708s] -- Detecting CXX compile features - done
+[0.714s] [31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/CMakeLists.txt:12 (include):
+[0.714s]   include could not find requested file:
+[0.715s] 
+[0.715s]     configLib
+[0.715s] 
+[0.715s] [0m
+[0.715s] [31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:5 (include):
+[0.715s]   include could not find requested file:
+[0.715s] 
+[0.716s]     configLib
+[0.718s] 
+[0.719s] [0m
+[0.720s] [31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:6 (include):
+[0.720s]   include could not find requested file:
+[0.720s] 
+[0.720s]     configDsp
+[0.722s] 
+[0.722s] [0m
+[0.722s] [31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:34 (configLib):
+[0.723s]   Unknown CMake command "configLib".
+[0.723s] 
+[0.723s] [0m
+[0.724s] -- Configuring incomplete, errors occurred!
+[0.724s] See also "/home/rahul/robotic_arm/f401re_micro_ros/build/arm_bayes_example/CMakeFiles/CMakeOutput.log".
+[0.724s] Invoked command in '/home/rahul/robotic_arm/f401re_micro_ros/build/arm_bayes_example' returned '1': /usr/bin/cmake /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Examples/ARM/arm_bayes_example -DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/f401re_micro_ros/install/arm_bayes_example

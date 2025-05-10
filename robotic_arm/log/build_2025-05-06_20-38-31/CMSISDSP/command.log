@@ -1,0 +1,1 @@
+Invoking command in '/home/rahul/robotic_arm/build/CMSISDSP': /usr/bin/cmake /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source -DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/install/CMSISDSP

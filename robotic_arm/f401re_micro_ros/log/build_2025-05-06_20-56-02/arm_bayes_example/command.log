@@ -1,0 +1,2 @@
+Invoking command in '/home/rahul/robotic_arm/f401re_micro_ros/build/arm_bayes_example': /usr/bin/cmake /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Examples/ARM/arm_bayes_example -DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/f401re_micro_ros/install/arm_bayes_example
+Invoked command in '/home/rahul/robotic_arm/f401re_micro_ros/build/arm_bayes_example' returned '1': /usr/bin/cmake /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Examples/ARM/arm_bayes_example -DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/f401re_micro_ros/install/arm_bayes_example

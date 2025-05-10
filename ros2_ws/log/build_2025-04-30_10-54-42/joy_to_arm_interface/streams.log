@@ -1,0 +1,23 @@
+[0.017s] Invoking command in '/home/rahul/ros2_ws/build/joy_to_arm_interface': AMENT_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rahul/ros2_ws/build/joy_to_arm_interface -- -j4 -l4
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target ps4_control_node[0m
+[0.120s] [100%] Built target ps4_control_node
+[0.141s] Invoked command in '/home/rahul/ros2_ws/build/joy_to_arm_interface' returned '0': AMENT_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rahul/ros2_ws/build/joy_to_arm_interface -- -j4 -l4
+[0.144s] Invoking command in '/home/rahul/ros2_ws/build/joy_to_arm_interface': AMENT_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rahul/ros2_ws/build/joy_to_arm_interface
+[0.154s] -- Install configuration: ""
+[0.154s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/lib/joy_to_arm_interface/ps4_control_node
+[0.155s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/package_run_dependencies/joy_to_arm_interface
+[0.155s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/parent_prefix_path/joy_to_arm_interface
+[0.156s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/ament_prefix_path.sh
+[0.156s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/ament_prefix_path.dsv
+[0.156s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/path.sh
+[0.157s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/path.dsv
+[0.157s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.bash
+[0.157s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.sh
+[0.157s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.zsh
+[0.157s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.dsv
+[0.158s] -- Installing: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/package.dsv
+[0.158s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/packages/joy_to_arm_interface
+[0.158s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/cmake/joy_to_arm_interfaceConfig.cmake
+[0.158s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/cmake/joy_to_arm_interfaceConfig-version.cmake
+[0.158s] -- Up-to-date: /home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/package.xml
+[0.161s] Invoked command in '/home/rahul/ros2_ws/build/joy_to_arm_interface' returned '0': AMENT_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rahul/ros2_ws/build/joy_to_arm_interface

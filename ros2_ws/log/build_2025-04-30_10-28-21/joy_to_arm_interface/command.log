@@ -1,0 +1,2 @@
+Invoking command in '/home/rahul/ros2_ws/build/joy_to_arm_interface': /usr/bin/cmake /home/rahul/ros2_ws/src/joy_to_arm_interface -DCMAKE_INSTALL_PREFIX=/home/rahul/ros2_ws/install/joy_to_arm_interface
+Invoked command in '/home/rahul/ros2_ws/build/joy_to_arm_interface' returned '1': /usr/bin/cmake /home/rahul/ros2_ws/src/joy_to_arm_interface -DCMAKE_INSTALL_PREFIX=/home/rahul/ros2_ws/install/joy_to_arm_interface

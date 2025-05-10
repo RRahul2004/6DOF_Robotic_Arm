@@ -1,0 +1,1 @@
+Invoking command in '/home/rahul/robotic_arm/build/CMSISNN': /usr/bin/cmake /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/NN -DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/install/CMSISNN

@@ -1,0 +1,16 @@
+[0.032s] Invoking command in '/home/rahul/robotic_arm/f401re_micro_ros/build/CMSISNN': /usr/bin/cmake /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/NN -DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/f401re_micro_ros/install/CMSISNN
+[0.161s] -- The C compiler identification is GNU 11.4.0
+[0.302s] -- The CXX compiler identification is GNU 11.4.0
+[0.320s] -- Detecting C compiler ABI info
+[0.487s] -- Detecting C compiler ABI info - done
+[0.517s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.517s] -- Detecting C compile features
+[0.518s] -- Detecting C compile features - done
+[0.531s] -- Detecting CXX compiler ABI info
+[0.716s] -- Detecting CXX compiler ABI info - done
+[0.739s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.739s] -- Detecting CXX compile features
+[0.740s] -- Detecting CXX compile features - done
+[0.751s] -- Configuring done
+[0.777s] -- Generating done
+[0.783s] -- Build files have been written to: /home/rahul/robotic_arm/f401re_micro_ros/build/CMSISNN

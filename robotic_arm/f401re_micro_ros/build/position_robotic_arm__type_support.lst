@@ -1,0 +1,548 @@
+ARM GAS  /tmp/ccTMgPO8.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"position_robotic_arm__type_support.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c
+  18              		.align	1
+  19              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__Posit
+  20              		.arch armv7e-m
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  24              		.fpu fpv4-sp-d16
+  26              	robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboti
+  27              	.LVL0:
+  28              	.LFB0:
+  29              		.file 1 "Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c"
+   1:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** // generated from rosidl_typesupport_introspection_c/resource/idl__type_support.c.em
+   2:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** // with input from robotic_arm_interfaces:msg/PositionRoboticArm.idl
+   3:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** // generated code does not contain a copyright notice
+   4:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** 
+   5:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** #include <stddef.h>
+   6:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** #include "robotic_arm_interfaces/msg/detail/position_robotic_arm__rosidl_typesupport_introspection_
+   7:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** #include "robotic_arm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+   8:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** #include "rosidl_typesupport_introspection_c/field_types.h"
+   9:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** #include "rosidl_typesupport_introspection_c/identifier.h"
+  10:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** #include "rosidl_typesupport_introspection_c/message_introspection.h"
+  11:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** #include "robotic_arm_interfaces/msg/detail/position_robotic_arm__functions.h"
+  12:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** #include "robotic_arm_interfaces/msg/detail/position_robotic_arm__struct.h"
+  13:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** 
+  14:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** 
+  15:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** #ifdef __cplusplus
+  16:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** extern "C"
+  17:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** {
+  18:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** #endif
+  19:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** 
+  20:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** void robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionR
+  21:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
+  22:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** {
+  30              		.loc 1 22 1 view -0
+  31              		.cfi_startproc
+  32              		@ args = 0, pretend = 0, frame = 0
+  33              		@ frame_needed = 0, uses_anonymous_args = 0
+  34              		.loc 1 22 1 is_stmt 0 view .LVU1
+  35 0000 08B5     		push	{r3, lr}
+  36              	.LCFI0:
+ARM GAS  /tmp/ccTMgPO8.s 			page 2
+
+
+  37              		.cfi_def_cfa_offset 8
+  38              		.cfi_offset 3, -8
+  39              		.cfi_offset 14, -4
+  23:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   // TODO(karsten1987): initializers are not yet implemented for typesupport c
+  24:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   // see https://github.com/ros2/ros2/issues/397
+  25:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   (void) _init;
+  40              		.loc 1 25 3 is_stmt 1 view .LVU2
+  26:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   robotic_arm_interfaces__msg__PositionRoboticArm__init(message_memory);
+  41              		.loc 1 26 3 view .LVU3
+  42 0002 FFF7FEFF 		bl	robotic_arm_interfaces__msg__PositionRoboticArm__init
+  43              	.LVL1:
+  27:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** }
+  44              		.loc 1 27 1 is_stmt 0 view .LVU4
+  45 0006 08BD     		pop	{r3, pc}
+  46              		.cfi_endproc
+  47              	.LFE0:
+  49              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c
+  50              		.align	1
+  51              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__Posit
+  52              		.syntax unified
+  53              		.thumb
+  54              		.thumb_func
+  55              		.fpu fpv4-sp-d16
+  57              	robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboti
+  58              	.LVL2:
+  59              	.LFB1:
+  28:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** 
+  29:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** void robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionR
+  30:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** {
+  60              		.loc 1 30 1 is_stmt 1 view -0
+  61              		.cfi_startproc
+  62              		@ args = 0, pretend = 0, frame = 0
+  63              		@ frame_needed = 0, uses_anonymous_args = 0
+  64              		.loc 1 30 1 is_stmt 0 view .LVU6
+  65 0000 08B5     		push	{r3, lr}
+  66              	.LCFI1:
+  67              		.cfi_def_cfa_offset 8
+  68              		.cfi_offset 3, -8
+  69              		.cfi_offset 14, -4
+  31:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   robotic_arm_interfaces__msg__PositionRoboticArm__fini(message_memory);
+  70              		.loc 1 31 3 is_stmt 1 view .LVU7
+  71 0002 FFF7FEFF 		bl	robotic_arm_interfaces__msg__PositionRoboticArm__fini
+  72              	.LVL3:
+  32:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** }
+  73              		.loc 1 32 1 is_stmt 0 view .LVU8
+  74 0006 08BD     		pop	{r3, pc}
+  75              		.cfi_endproc
+  76              	.LFE1:
+  78              		.section	.text.rosidl_typesupport_introspection_c__get_message_type_support_handle__robotic_arm_in
+  79              		.align	1
+  80              		.global	rosidl_typesupport_introspection_c__get_message_type_support_handle__robotic_arm_interface
+  81              		.syntax unified
+  82              		.thumb
+  83              		.thumb_func
+  84              		.fpu fpv4-sp-d16
+  86              	rosidl_typesupport_introspection_c__get_message_type_support_handle__robotic_arm_interfaces__msg__P
+  87              	.LFB2:
+ARM GAS  /tmp/ccTMgPO8.s 			page 3
+
+
+  33:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** 
+  34:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** static rosidl_typesupport_introspection_c__MessageMember robotic_arm_interfaces__msg__PositionRobot
+  35:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   {
+  36:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     "servo_1",  // name
+  37:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+  38:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // upper bound of string
+  39:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // members of sub message
+  40:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is array
+  41:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // array size
+  42:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is upper bound
+  43:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     offsetof(robotic_arm_interfaces__msg__PositionRoboticArm, servo_1),  // bytes offset in struct
+  44:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // default value
+  45:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // size() function pointer
+  46:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get_const(index) function pointer
+  47:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get(index) function pointer
+  48:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // fetch(index, &value) function pointer
+  49:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // assign(index, value) function pointer
+  50:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL  // resize(index) function pointer
+  51:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   },
+  52:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   {
+  53:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     "servo_2",  // name
+  54:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+  55:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // upper bound of string
+  56:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // members of sub message
+  57:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is array
+  58:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // array size
+  59:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is upper bound
+  60:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     offsetof(robotic_arm_interfaces__msg__PositionRoboticArm, servo_2),  // bytes offset in struct
+  61:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // default value
+  62:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // size() function pointer
+  63:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get_const(index) function pointer
+  64:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get(index) function pointer
+  65:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // fetch(index, &value) function pointer
+  66:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // assign(index, value) function pointer
+  67:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL  // resize(index) function pointer
+  68:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   },
+  69:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   {
+  70:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     "servo_3",  // name
+  71:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+  72:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // upper bound of string
+  73:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // members of sub message
+  74:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is array
+  75:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // array size
+  76:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is upper bound
+  77:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     offsetof(robotic_arm_interfaces__msg__PositionRoboticArm, servo_3),  // bytes offset in struct
+  78:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // default value
+  79:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // size() function pointer
+  80:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get_const(index) function pointer
+  81:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get(index) function pointer
+  82:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // fetch(index, &value) function pointer
+  83:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // assign(index, value) function pointer
+  84:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL  // resize(index) function pointer
+  85:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   },
+  86:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   {
+  87:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     "servo_4",  // name
+  88:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+  89:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // upper bound of string
+ARM GAS  /tmp/ccTMgPO8.s 			page 4
+
+
+  90:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // members of sub message
+  91:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is array
+  92:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // array size
+  93:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is upper bound
+  94:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     offsetof(robotic_arm_interfaces__msg__PositionRoboticArm, servo_4),  // bytes offset in struct
+  95:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // default value
+  96:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // size() function pointer
+  97:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get_const(index) function pointer
+  98:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get(index) function pointer
+  99:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // fetch(index, &value) function pointer
+ 100:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // assign(index, value) function pointer
+ 101:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL  // resize(index) function pointer
+ 102:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   },
+ 103:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   {
+ 104:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     "servo_5",  // name
+ 105:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+ 106:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // upper bound of string
+ 107:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // members of sub message
+ 108:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is array
+ 109:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // array size
+ 110:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is upper bound
+ 111:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     offsetof(robotic_arm_interfaces__msg__PositionRoboticArm, servo_5),  // bytes offset in struct
+ 112:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // default value
+ 113:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // size() function pointer
+ 114:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get_const(index) function pointer
+ 115:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get(index) function pointer
+ 116:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // fetch(index, &value) function pointer
+ 117:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // assign(index, value) function pointer
+ 118:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL  // resize(index) function pointer
+ 119:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   },
+ 120:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   {
+ 121:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     "servo_6",  // name
+ 122:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+ 123:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // upper bound of string
+ 124:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // members of sub message
+ 125:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is array
+ 126:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // array size
+ 127:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is upper bound
+ 128:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     offsetof(robotic_arm_interfaces__msg__PositionRoboticArm, servo_6),  // bytes offset in struct
+ 129:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // default value
+ 130:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // size() function pointer
+ 131:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get_const(index) function pointer
+ 132:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get(index) function pointer
+ 133:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // fetch(index, &value) function pointer
+ 134:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // assign(index, value) function pointer
+ 135:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL  // resize(index) function pointer
+ 136:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   },
+ 137:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   {
+ 138:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     "stepper",  // name
+ 139:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+ 140:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // upper bound of string
+ 141:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // members of sub message
+ 142:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is array
+ 143:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     0,  // array size
+ 144:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     false,  // is upper bound
+ 145:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     offsetof(robotic_arm_interfaces__msg__PositionRoboticArm, stepper),  // bytes offset in struct
+ 146:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // default value
+ARM GAS  /tmp/ccTMgPO8.s 			page 5
+
+
+ 147:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // size() function pointer
+ 148:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get_const(index) function pointer
+ 149:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // get(index) function pointer
+ 150:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // fetch(index, &value) function pointer
+ 151:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL,  // assign(index, value) function pointer
+ 152:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     NULL  // resize(index) function pointer
+ 153:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   }
+ 154:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** };
+ 155:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** 
+ 156:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** static const rosidl_typesupport_introspection_c__MessageMembers robotic_arm_interfaces__msg__Positi
+ 157:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   "robotic_arm_interfaces__msg",  // message namespace
+ 158:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   "PositionRoboticArm",  // message name
+ 159:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   7,  // number of fields
+ 160:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   sizeof(robotic_arm_interfaces__msg__PositionRoboticArm),
+ 161:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRobo
+ 162:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRobo
+ 163:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRobo
+ 164:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** };
+ 165:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** 
+ 166:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** // this is not const since it must be initialized on first access
+ 167:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** // since C does not allow non-integral compile-time constants
+ 168:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** static rosidl_message_type_support_t robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesu
+ 169:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   0,
+ 170:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   &robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRob
+ 171:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   get_message_typesupport_handle_function,
+ 172:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** };
+ 173:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** 
+ 174:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_robotic_arm_interfaces
+ 175:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** const rosidl_message_type_support_t *
+ 176:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, robotic_arm_i
+  88              		.loc 1 176 138 is_stmt 1 view -0
+  89              		.cfi_startproc
+  90              		@ args = 0, pretend = 0, frame = 0
+  91              		@ frame_needed = 0, uses_anonymous_args = 0
+  92              		@ link register save eliminated.
+ 177:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   if (!robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__Positio
+  93              		.loc 1 177 3 view .LVU10
+  94              		.loc 1 177 139 is_stmt 0 view .LVU11
+  95 0000 044B     		ldr	r3, .L8
+  96 0002 1B68     		ldr	r3, [r3]
+  97              		.loc 1 177 6 view .LVU12
+  98 0004 0BB1     		cbz	r3, .L7
+  99              	.L6:
+ 178:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRo
+ 179:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****       rosidl_typesupport_introspection_c__identifier;
+ 180:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   }
+ 181:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****   return &robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__Posi
+ 100              		.loc 1 181 3 is_stmt 1 view .LVU13
+ 182:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c **** }
+ 101              		.loc 1 182 1 is_stmt 0 view .LVU14
+ 102 0006 0348     		ldr	r0, .L8
+ 103 0008 7047     		bx	lr
+ 104              	.L7:
+ 178:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRo
+ 105              		.loc 1 178 5 is_stmt 1 view .LVU15
+ 178:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__type_support.c ****     robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRo
+ 106              		.loc 1 178 160 is_stmt 0 view .LVU16
+ARM GAS  /tmp/ccTMgPO8.s 			page 6
+
+
+ 107 000a 034B     		ldr	r3, .L8+4
+ 108 000c 1A68     		ldr	r2, [r3]
+ 109 000e 014B     		ldr	r3, .L8
+ 110 0010 1A60     		str	r2, [r3]
+ 111 0012 F8E7     		b	.L6
+ 112              	.L9:
+ 113              		.align	2
+ 114              	.L8:
+ 115 0014 00000000 		.word	.LANCHOR0
+ 116 0018 00000000 		.word	rosidl_typesupport_introspection_c__identifier
+ 117              		.cfi_endproc
+ 118              	.LFE2:
+ 120              		.section	.rodata.str1.4,"aMS",%progbits,1
+ 121              		.align	2
+ 122              	.LC0:
+ 123 0000 726F626F 		.ascii	"robotic_arm_interfaces__msg\000"
+ 123      7469635F 
+ 123      61726D5F 
+ 123      696E7465 
+ 123      72666163 
+ 124              		.align	2
+ 125              	.LC1:
+ 126 001c 506F7369 		.ascii	"PositionRoboticArm\000"
+ 126      74696F6E 
+ 126      526F626F 
+ 126      74696341 
+ 126      726D00
+ 127 002f 00       		.align	2
+ 128              	.LC2:
+ 129 0030 73657276 		.ascii	"servo_1\000"
+ 129      6F5F3100 
+ 130              		.align	2
+ 131              	.LC3:
+ 132 0038 73657276 		.ascii	"servo_2\000"
+ 132      6F5F3200 
+ 133              		.align	2
+ 134              	.LC4:
+ 135 0040 73657276 		.ascii	"servo_3\000"
+ 135      6F5F3300 
+ 136              		.align	2
+ 137              	.LC5:
+ 138 0048 73657276 		.ascii	"servo_4\000"
+ 138      6F5F3400 
+ 139              		.align	2
+ 140              	.LC6:
+ 141 0050 73657276 		.ascii	"servo_5\000"
+ 141      6F5F3500 
+ 142              		.align	2
+ 143              	.LC7:
+ 144 0058 73657276 		.ascii	"servo_6\000"
+ 144      6F5F3600 
+ 145              		.align	2
+ 146              	.LC8:
+ 147 0060 73746570 		.ascii	"stepper\000"
+ 147      70657200 
+ 148              		.section	.data.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c
+ 149              		.align	2
+ARM GAS  /tmp/ccTMgPO8.s 			page 7
+
+
+ 152              	robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboti
+ 153 0000 30000000 		.word	.LC2
+ 154 0004 01       		.byte	1
+ 155 0005 000000   		.space	3
+ 156 0008 00000000 		.word	0
+ 157 000c 00000000 		.word	0
+ 158 0010 00       		.byte	0
+ 159 0011 000000   		.space	3
+ 160 0014 00000000 		.word	0
+ 161 0018 00       		.byte	0
+ 162 0019 000000   		.space	3
+ 163 001c 00000000 		.word	0
+ 164 0020 00000000 		.word	0
+ 165 0024 00000000 		.word	0
+ 166 0028 00000000 		.word	0
+ 167 002c 00000000 		.word	0
+ 168 0030 00000000 		.word	0
+ 169 0034 00000000 		.word	0
+ 170 0038 00000000 		.word	0
+ 171 003c 38000000 		.word	.LC3
+ 172 0040 01       		.byte	1
+ 173 0041 000000   		.space	3
+ 174 0044 00000000 		.word	0
+ 175 0048 00000000 		.word	0
+ 176 004c 00       		.byte	0
+ 177 004d 000000   		.space	3
+ 178 0050 00000000 		.word	0
+ 179 0054 00       		.byte	0
+ 180 0055 000000   		.space	3
+ 181 0058 04000000 		.word	4
+ 182 005c 00000000 		.word	0
+ 183 0060 00000000 		.word	0
+ 184 0064 00000000 		.word	0
+ 185 0068 00000000 		.word	0
+ 186 006c 00000000 		.word	0
+ 187 0070 00000000 		.word	0
+ 188 0074 00000000 		.word	0
+ 189 0078 40000000 		.word	.LC4
+ 190 007c 01       		.byte	1
+ 191 007d 000000   		.space	3
+ 192 0080 00000000 		.word	0
+ 193 0084 00000000 		.word	0
+ 194 0088 00       		.byte	0
+ 195 0089 000000   		.space	3
+ 196 008c 00000000 		.word	0
+ 197 0090 00       		.byte	0
+ 198 0091 000000   		.space	3
+ 199 0094 08000000 		.word	8
+ 200 0098 00000000 		.word	0
+ 201 009c 00000000 		.word	0
+ 202 00a0 00000000 		.word	0
+ 203 00a4 00000000 		.word	0
+ 204 00a8 00000000 		.word	0
+ 205 00ac 00000000 		.word	0
+ 206 00b0 00000000 		.word	0
+ 207 00b4 48000000 		.word	.LC5
+ 208 00b8 01       		.byte	1
+ARM GAS  /tmp/ccTMgPO8.s 			page 8
+
+
+ 209 00b9 000000   		.space	3
+ 210 00bc 00000000 		.word	0
+ 211 00c0 00000000 		.word	0
+ 212 00c4 00       		.byte	0
+ 213 00c5 000000   		.space	3
+ 214 00c8 00000000 		.word	0
+ 215 00cc 00       		.byte	0
+ 216 00cd 000000   		.space	3
+ 217 00d0 0C000000 		.word	12
+ 218 00d4 00000000 		.word	0
+ 219 00d8 00000000 		.word	0
+ 220 00dc 00000000 		.word	0
+ 221 00e0 00000000 		.word	0
+ 222 00e4 00000000 		.word	0
+ 223 00e8 00000000 		.word	0
+ 224 00ec 00000000 		.word	0
+ 225 00f0 50000000 		.word	.LC6
+ 226 00f4 01       		.byte	1
+ 227 00f5 000000   		.space	3
+ 228 00f8 00000000 		.word	0
+ 229 00fc 00000000 		.word	0
+ 230 0100 00       		.byte	0
+ 231 0101 000000   		.space	3
+ 232 0104 00000000 		.word	0
+ 233 0108 00       		.byte	0
+ 234 0109 000000   		.space	3
+ 235 010c 10000000 		.word	16
+ 236 0110 00000000 		.word	0
+ 237 0114 00000000 		.word	0
+ 238 0118 00000000 		.word	0
+ 239 011c 00000000 		.word	0
+ 240 0120 00000000 		.word	0
+ 241 0124 00000000 		.word	0
+ 242 0128 00000000 		.word	0
+ 243 012c 58000000 		.word	.LC7
+ 244 0130 01       		.byte	1
+ 245 0131 000000   		.space	3
+ 246 0134 00000000 		.word	0
+ 247 0138 00000000 		.word	0
+ 248 013c 00       		.byte	0
+ 249 013d 000000   		.space	3
+ 250 0140 00000000 		.word	0
+ 251 0144 00       		.byte	0
+ 252 0145 000000   		.space	3
+ 253 0148 14000000 		.word	20
+ 254 014c 00000000 		.word	0
+ 255 0150 00000000 		.word	0
+ 256 0154 00000000 		.word	0
+ 257 0158 00000000 		.word	0
+ 258 015c 00000000 		.word	0
+ 259 0160 00000000 		.word	0
+ 260 0164 00000000 		.word	0
+ 261 0168 60000000 		.word	.LC8
+ 262 016c 01       		.byte	1
+ 263 016d 000000   		.space	3
+ 264 0170 00000000 		.word	0
+ 265 0174 00000000 		.word	0
+ARM GAS  /tmp/ccTMgPO8.s 			page 9
+
+
+ 266 0178 00       		.byte	0
+ 267 0179 000000   		.space	3
+ 268 017c 00000000 		.word	0
+ 269 0180 00       		.byte	0
+ 270 0181 000000   		.space	3
+ 271 0184 18000000 		.word	24
+ 272 0188 00000000 		.word	0
+ 273 018c 00000000 		.word	0
+ 274 0190 00000000 		.word	0
+ 275 0194 00000000 		.word	0
+ 276 0198 00000000 		.word	0
+ 277 019c 00000000 		.word	0
+ 278 01a0 00000000 		.word	0
+ 279              		.section	.data.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c
+ 280              		.align	2
+ 281              		.set	.LANCHOR0,. + 0
+ 284              	robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboti
+ 285 0000 00000000 		.word	0
+ 286 0004 00000000 		.word	robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__Positio
+ 287 0008 00000000 		.word	get_message_typesupport_handle_function
+ 288              		.section	.rodata.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection
+ 289              		.align	2
+ 292              	robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboti
+ 293 0000 00000000 		.word	.LC0
+ 294 0004 1C000000 		.word	.LC1
+ 295 0008 07000000 		.word	7
+ 296 000c 1C000000 		.word	28
+ 297 0010 00000000 		.word	robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__Positio
+ 298 0014 00000000 		.word	robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__Positio
+ 299 0018 00000000 		.word	robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__Positio
+ 300              		.text
+ 301              	.Letext0:
+ 302              		.file 2 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
+ 303              		.file 3 "micro_ros_stm32cubemx_utils/microros_static_library/libmicroros/microros_include/rosidl_r
+ 304              		.file 4 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h"
+ 305              		.file 5 "micro_ros_stm32cubemx_utils/microros_static_library/libmicroros/microros_include/rosidl_t
+ 306              		.file 6 "micro_ros_stm32cubemx_utils/microros_static_library/libmicroros/microros_include/rosidl_r
+ 307              		.file 7 "micro_ros_stm32cubemx_utils/microros_static_library/libmicroros/microros_include/rosidl_t
+ 308              		.file 8 "Core/Inc/robotic_arm_interfaces/msg/detail/position_robotic_arm__functions.h"
+ 309              		.file 9 "micro_ros_stm32cubemx_utils/microros_static_library/libmicroros/microros_include/rosidl_t
+ARM GAS  /tmp/ccTMgPO8.s 			page 10
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 position_robotic_arm__type_support.c
+     /tmp/ccTMgPO8.s:18     .text.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_init_function:0000000000000000 $t
+     /tmp/ccTMgPO8.s:26     .text.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_init_function:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_init_function
+     /tmp/ccTMgPO8.s:50     .text.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_fini_function:0000000000000000 $t
+     /tmp/ccTMgPO8.s:57     .text.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_fini_function:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_fini_function
+     /tmp/ccTMgPO8.s:79     .text.rosidl_typesupport_introspection_c__get_message_type_support_handle__robotic_arm_interfaces__msg__PositionRoboticArm:0000000000000000 $t
+     /tmp/ccTMgPO8.s:86     .text.rosidl_typesupport_introspection_c__get_message_type_support_handle__robotic_arm_interfaces__msg__PositionRoboticArm:0000000000000000 rosidl_typesupport_introspection_c__get_message_type_support_handle__robotic_arm_interfaces__msg__PositionRoboticArm
+     /tmp/ccTMgPO8.s:115    .text.rosidl_typesupport_introspection_c__get_message_type_support_handle__robotic_arm_interfaces__msg__PositionRoboticArm:0000000000000014 $d
+     /tmp/ccTMgPO8.s:121    .rodata.str1.4:0000000000000000 $d
+     /tmp/ccTMgPO8.s:149    .data.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_message_member_array:0000000000000000 $d
+     /tmp/ccTMgPO8.s:152    .data.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_message_member_array:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_message_member_array
+     /tmp/ccTMgPO8.s:280    .data.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_message_type_support_handle:0000000000000000 $d
+     /tmp/ccTMgPO8.s:284    .data.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_message_type_support_handle:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_message_type_support_handle
+     /tmp/ccTMgPO8.s:292    .rodata.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_message_members:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_message_members
+     /tmp/ccTMgPO8.s:289    .rodata.robotic_arm_interfaces__msg__PositionRoboticArm__rosidl_typesupport_introspection_c__PositionRoboticArm_message_members:0000000000000000 $d
+
+UNDEFINED SYMBOLS
+robotic_arm_interfaces__msg__PositionRoboticArm__init
+robotic_arm_interfaces__msg__PositionRoboticArm__fini
+rosidl_typesupport_introspection_c__identifier
+get_message_typesupport_handle_function

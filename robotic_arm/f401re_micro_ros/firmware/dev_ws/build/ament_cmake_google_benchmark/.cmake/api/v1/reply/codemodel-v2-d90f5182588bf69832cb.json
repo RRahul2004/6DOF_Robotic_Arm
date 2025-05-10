@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ee495ed135396989c66f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ament_cmake_google_benchmark",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_google_benchmark_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_google_benchmark_uninstall-889a00347ba6dfcfa0d0.json",
+					"name" : "ament_cmake_google_benchmark_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ament_cmake_google_benchmark_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ament_cmake_google_benchmark_egg-2c22f0995f1cb78c2948.json",
+					"name" : "ament_cmake_python_build_ament_cmake_google_benchmark_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ament_cmake_google_benchmark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ament_cmake_google_benchmark-f0db106c9a68e2f00dc8.json",
+					"name" : "ament_cmake_python_copy_ament_cmake_google_benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b45cf775895341cfbcb6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_cmake_google_benchmark",
+		"source" : "/home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/ament/ament_cmake/ament_cmake_google_benchmark"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

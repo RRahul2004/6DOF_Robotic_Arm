@@ -1,0 +1,210 @@
+[0.024s] Invoking command in '/home/rahul/robotic_arm/agent_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/robotic_arm/agent_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/agent_ws/install/micro_ros_setup
+[0.316s] -- The C compiler identification is GNU 11.4.0
+[0.481s] -- The CXX compiler identification is GNU 11.4.0
+[0.501s] -- Detecting C compiler ABI info
+[0.678s] -- Detecting C compiler ABI info - done
+[0.712s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.714s] -- Detecting C compile features
+[0.715s] -- Detecting C compile features - done
+[0.729s] -- Detecting CXX compiler ABI info
+[0.909s] -- Detecting CXX compiler ABI info - done
+[0.928s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.931s] -- Detecting CXX compile features
+[0.931s] -- Detecting CXX compile features - done
+[0.945s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.493s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.726s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.966s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.035s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.047s] -- Added test 'lint_cmake' to check CMake code style
+[2.051s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.087s] -- Added test 'xmllint' to check XML markup files
+[2.105s] -- Configuring done
+[2.114s] -- Generating done
+[2.121s] -- Build files have been written to: /home/rahul/robotic_arm/agent_ws/build/micro_ros_setup
+[2.133s] Invoked command in '/home/rahul/robotic_arm/agent_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/robotic_arm/agent_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/agent_ws/install/micro_ros_setup
+[2.140s] Invoking command in '/home/rahul/robotic_arm/agent_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/robotic_arm/agent_ws/build/micro_ros_setup -- -j4 -l4
+[2.256s] Invoked command in '/home/rahul/robotic_arm/agent_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/robotic_arm/agent_ws/build/micro_ros_setup -- -j4 -l4
+[2.292s] Invoking command in '/home/rahul/robotic_arm/agent_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/robotic_arm/agent_ws/build/micro_ros_setup
+[2.316s] -- Install configuration: ""
+[2.317s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[2.320s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[2.320s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[2.322s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[2.323s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[2.325s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[2.326s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[2.326s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[2.326s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[2.331s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[2.331s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[2.331s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[2.334s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[2.334s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[2.335s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[2.335s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config
+[2.335s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[2.336s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra
+[2.337s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[2.337s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[2.339s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[2.339s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[2.341s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[2.341s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[2.342s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[2.342s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[2.342s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[2.343s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[2.343s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[2.343s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[2.344s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed
+[2.346s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[2.347s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[2.347s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed/generic
+[2.347s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[2.348s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[2.352s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[2.353s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[2.353s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[2.354s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[2.355s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[2.355s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[2.355s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/generate_lib
+[2.356s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[2.357s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/generate_lib/generic
+[2.358s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[2.359s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[2.359s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[2.359s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[2.360s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[2.361s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[2.361s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[2.361s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[2.362s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[2.363s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr
+[2.363s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[2.364s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[2.364s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/generic
+[2.364s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[2.364s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[2.364s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[2.366s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[2.366s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[2.367s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[2.368s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[2.370s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[2.370s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[2.372s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[2.372s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/android
+[2.372s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[2.372s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/android/generic
+[2.374s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[2.374s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[2.375s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[2.377s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[2.378s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[2.381s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[2.382s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[2.383s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/host
+[2.385s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[2.385s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[2.387s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/host/generic
+[2.387s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[2.388s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[2.390s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[2.391s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[2.393s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[2.394s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[2.394s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[2.395s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[2.397s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/utils.sh
+[2.397s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos
+[2.398s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/esp32
+[2.398s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[2.400s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[2.402s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[2.402s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[2.403s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[2.403s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[2.404s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[2.404s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[2.404s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[2.404s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[2.405s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[2.405s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[2.405s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[2.406s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[2.406s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[2.406s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[2.407s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[2.407s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[2.408s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[2.408s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[2.408s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[2.409s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[2.409s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[2.409s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[2.410s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[2.411s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[2.413s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[2.414s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[2.414s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[2.414s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[2.415s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[2.416s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[2.417s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[2.418s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[2.418s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[2.418s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[2.419s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[2.419s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[2.419s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[2.419s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[2.420s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[2.420s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[2.422s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[2.422s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[2.422s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[2.423s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[2.424s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[2.425s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[2.425s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[2.425s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[2.426s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[2.426s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[2.428s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[2.429s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[2.430s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[2.430s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[2.431s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[2.431s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[2.432s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[2.432s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[2.432s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[2.433s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[2.433s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[2.434s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[2.434s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[2.435s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[2.435s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/raspbian
+[2.436s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[2.436s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/raspbian/generic
+[2.436s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[2.436s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[2.438s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[2.438s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[2.439s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[2.439s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[2.440s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[2.440s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[2.442s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[2.443s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[2.444s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[2.445s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[2.445s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[2.446s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[2.446s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[2.447s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[2.447s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[2.449s] -- Installing: /home/rahul/robotic_arm/agent_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[2.454s] Invoked command in '/home/rahul/robotic_arm/agent_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/robotic_arm/agent_ws/build/micro_ros_setup

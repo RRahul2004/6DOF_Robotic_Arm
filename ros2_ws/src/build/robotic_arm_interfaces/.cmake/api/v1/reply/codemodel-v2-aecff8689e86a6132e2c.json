@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-80ad57eb5cf2402ee71b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robotic_arm_interfaces__py",
+					"jsonFile" : "directory-robotic_arm_interfaces__py-87056437034b76c685c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rahul/ros2_ws/src/build/robotic_arm_interfaces/robotic_arm_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robotic_arm_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robotic_arm_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robotic_arm_interfaces_egg-7b11dc45ccf5780a553b.json",
+					"name" : "ament_cmake_python_build_robotic_arm_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robotic_arm_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robotic_arm_interfaces-e044b89569d1482d9e33.json",
+					"name" : "ament_cmake_python_copy_robotic_arm_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces-93b37519da4241819b66.json",
+					"name" : "robotic_arm_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__cpp-0b038b31848fed6f0a95.json",
+					"name" : "robotic_arm_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robotic_arm_interfaces__py::@7ee913b76d23a86e7603",
+					"jsonFile" : "target-robotic_arm_interfaces__py-d2b4c96e1763ce41df63.json",
+					"name" : "robotic_arm_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__rosidl_generator_c-0a8b41f73541b0f79618.json",
+					"name" : "robotic_arm_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__rosidl_generator_py-03b10c6bce3c7fd0cc8d.json",
+					"name" : "robotic_arm_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__rosidl_typesupport_c-dd8b6b4bc4f675cfa901.json",
+					"name" : "robotic_arm_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__rosidl_typesupport_c__pyext-64a3403e32d96833e31f.json",
+					"name" : "robotic_arm_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__rosidl_typesupport_cpp-5467bfba0d94f19836fe.json",
+					"name" : "robotic_arm_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__rosidl_typesupport_fastrtps_c-3cb26c63ca2034b5c8a5.json",
+					"name" : "robotic_arm_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__rosidl_typesupport_fastrtps_c__pyext-109b3d794775e8f6a6ad.json",
+					"name" : "robotic_arm_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__rosidl_typesupport_fastrtps_cpp-072e3b36027dae15e03c.json",
+					"name" : "robotic_arm_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__rosidl_typesupport_introspection_c-19eeaef833bcb3499524.json",
+					"name" : "robotic_arm_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__rosidl_typesupport_introspection_c__pyext-393dc2a892ffa26da36c.json",
+					"name" : "robotic_arm_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces__rosidl_typesupport_introspection_cpp-4cc6502eff67933e1b01.json",
+					"name" : "robotic_arm_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_interfaces_uninstall-ae03468ca5d6efcb48f5.json",
+					"name" : "robotic_arm_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ebc517cb91d854d61283.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rahul/ros2_ws/src/build/robotic_arm_interfaces",
+		"source" : "/home/rahul/ros2_ws/src/robotic_arm_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

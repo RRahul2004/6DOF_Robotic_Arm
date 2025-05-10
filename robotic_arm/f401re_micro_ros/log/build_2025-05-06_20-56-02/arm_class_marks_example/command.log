@@ -1,0 +1,1 @@
+Invoking command in '/home/rahul/robotic_arm/f401re_micro_ros/build/arm_class_marks_example': /usr/bin/cmake /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Examples/ARM/arm_class_marks_example -DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/f401re_micro_ros/install/arm_class_marks_example

@@ -1,0 +1,24 @@
+[0.987s] Invoking command in '/home/rahul/ros2_ws/src/ps4_servo_control': PYTHONPATH=/home/rahul/ros2_ws/build/ps4_servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ps4_servo_control build --build-base /home/rahul/ros2_ws/build/ps4_servo_control/build install --record /home/rahul/ros2_ws/build/ps4_servo_control/install.log --single-version-externally-managed install_data
+[1.389s] running egg_info
+[1.390s] writing ../../build/ps4_servo_control/ps4_servo_control.egg-info/PKG-INFO
+[1.390s] writing dependency_links to ../../build/ps4_servo_control/ps4_servo_control.egg-info/dependency_links.txt
+[1.390s] writing entry points to ../../build/ps4_servo_control/ps4_servo_control.egg-info/entry_points.txt
+[1.391s] writing requirements to ../../build/ps4_servo_control/ps4_servo_control.egg-info/requires.txt
+[1.391s] writing top-level names to ../../build/ps4_servo_control/ps4_servo_control.egg-info/top_level.txt
+[1.394s] reading manifest file '../../build/ps4_servo_control/ps4_servo_control.egg-info/SOURCES.txt'
+[1.395s] writing manifest file '../../build/ps4_servo_control/ps4_servo_control.egg-info/SOURCES.txt'
+[1.396s] running build
+[1.396s] running build_py
+[1.396s] copying ps4_servo_control/__init__.py -> /home/rahul/ros2_ws/build/ps4_servo_control/build/lib/ps4_servo_control
+[1.396s] running install
+[1.397s] running install_lib
+[1.398s] copying /home/rahul/ros2_ws/build/ps4_servo_control/build/lib/ps4_servo_control/__init__.py -> /home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages/ps4_servo_control
+[1.399s] byte-compiling /home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages/ps4_servo_control/__init__.py to __init__.cpython-310.pyc
+[1.400s] running install_data
+[1.400s] running install_egg_info
+[1.403s] removing '/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages/ps4_servo_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.403s] Copying ../../build/ps4_servo_control/ps4_servo_control.egg-info to /home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages/ps4_servo_control-0.0.0-py3.10.egg-info
+[1.405s] running install_scripts
+[1.439s] Installing ps4_control_node script to /home/rahul/ros2_ws/install/ps4_servo_control/lib/ps4_servo_control
+[1.439s] writing list of installed files to '/home/rahul/ros2_ws/build/ps4_servo_control/install.log'
+[1.476s] Invoked command in '/home/rahul/ros2_ws/src/ps4_servo_control' returned '0': PYTHONPATH=/home/rahul/ros2_ws/build/ps4_servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ps4_servo_control build --build-base /home/rahul/ros2_ws/build/ps4_servo_control/build install --record /home/rahul/ros2_ws/build/ps4_servo_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+/home/rahul/ros2_ws/install/joy_to_arm_interface/lib/joy_to_arm_interface/ps4_control_node
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/package_run_dependencies/joy_to_arm_interface
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/parent_prefix_path/joy_to_arm_interface
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/ament_prefix_path.sh
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/ament_prefix_path.dsv
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/path.sh
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/environment/path.dsv
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.bash
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.sh
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.zsh
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/local_setup.dsv
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/package.dsv
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/ament_index/resource_index/packages/joy_to_arm_interface
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/cmake/joy_to_arm_interfaceConfig.cmake
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/cmake/joy_to_arm_interfaceConfig-version.cmake
+/home/rahul/ros2_ws/install/joy_to_arm_interface/share/joy_to_arm_interface/package.xml

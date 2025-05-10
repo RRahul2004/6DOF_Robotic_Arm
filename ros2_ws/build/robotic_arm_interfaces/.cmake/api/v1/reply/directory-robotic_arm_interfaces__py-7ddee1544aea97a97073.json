@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robotic_arm_interfaces__py",
+		"source" : "/home/rahul/ros2_ws/build/robotic_arm_interfaces/robotic_arm_interfaces__py"
+	}
+}

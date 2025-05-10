@@ -1,0 +1,36 @@
+[2.024s] Invoking command in '/home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/ament/ament_lint/ament_lint': PYTHONPATH=/home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/build install --record /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed install_data
+[2.533s] running egg_info
+[2.535s] creating ../../../build/ament_lint/ament_lint.egg-info
+[2.535s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[2.537s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[2.537s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[2.538s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[2.538s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[2.538s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[2.546s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[2.548s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[2.549s] running build
+[2.549s] running build_py
+[2.550s] creating /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/build
+[2.551s] creating /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/build/lib
+[2.551s] creating /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[2.551s] copying ament_lint/pytest_marker.py -> /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[2.552s] copying ament_lint/__init__.py -> /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[2.553s] running install
+[2.553s] running install_lib
+[2.554s] creating /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[2.554s] copying /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[2.554s] copying /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[2.555s] byte-compiling /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-310.pyc
+[2.555s] byte-compiling /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint/__init__.py to __init__.cpython-310.pyc
+[2.556s] running install_data
+[2.556s] copying package.xml -> /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/share/ament_lint
+[2.556s] creating /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/share/ament_index
+[2.557s] creating /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index
+[2.557s] creating /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[2.558s] copying resource/ament_lint -> /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[2.558s] running install_egg_info
+[2.561s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint-0.12.12-py3.10.egg-info
+[2.562s] running install_scripts
+[2.611s] writing list of installed files to '/home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/install.log'
+[2.681s] Invoked command in '/home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/ament/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/build install --record /home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed install_data

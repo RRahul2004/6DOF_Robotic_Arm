@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gtest",
+		"source" : "/home/rahul/robotic_arm/f401re_micro_ros/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor"
+	}
+}

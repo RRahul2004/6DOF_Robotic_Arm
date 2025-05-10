@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (CMSISDSP) JobQueued: {'identifier': 'CMSISDSP', 'dependencies': OrderedDict()}
+[0.000284] (CMSISNN) JobQueued: {'identifier': 'CMSISNN', 'dependencies': OrderedDict()}
+[0.000311] (arm_bayes_example) JobQueued: {'identifier': 'arm_bayes_example', 'dependencies': OrderedDict()}
+[0.000347] (arm_class_marks_example) JobQueued: {'identifier': 'arm_class_marks_example', 'dependencies': OrderedDict()}
+[0.000383] (arm_convolution_example) JobQueued: {'identifier': 'arm_convolution_example', 'dependencies': OrderedDict()}
+[0.000419] (arm_dotproduct_example) JobQueued: {'identifier': 'arm_dotproduct_example', 'dependencies': OrderedDict()}
+[0.000440] (arm_fft_bin_example) JobQueued: {'identifier': 'arm_fft_bin_example', 'dependencies': OrderedDict()}
+[0.000461] (arm_fir_example) JobQueued: {'identifier': 'arm_fir_example', 'dependencies': OrderedDict()}
+[0.000481] (arm_graphic_equalizer_example) JobQueued: {'identifier': 'arm_graphic_equalizer_example', 'dependencies': OrderedDict()}
+[0.000502] (arm_linear_interp_example) JobQueued: {'identifier': 'arm_linear_interp_example', 'dependencies': OrderedDict()}
+[0.000535] (arm_matrix_example) JobQueued: {'identifier': 'arm_matrix_example', 'dependencies': OrderedDict()}
+[0.000555] (arm_signal_convergence_example) JobQueued: {'identifier': 'arm_signal_convergence_example', 'dependencies': OrderedDict()}
+[0.000576] (arm_sin_cos_example) JobQueued: {'identifier': 'arm_sin_cos_example', 'dependencies': OrderedDict()}
+[0.000596] (arm_svm_example) JobQueued: {'identifier': 'arm_svm_example', 'dependencies': OrderedDict()}
+[0.000616] (arm_variance_example) JobQueued: {'identifier': 'arm_variance_example', 'dependencies': OrderedDict()}
+[0.000636] (micro_ros_stmcube) JobQueued: {'identifier': 'micro_ros_stmcube', 'dependencies': OrderedDict()}
+[0.001646] (CMSISDSP) JobStarted: {'identifier': 'CMSISDSP'}
+[0.009148] (CMSISNN) JobStarted: {'identifier': 'CMSISNN'}
+[0.015802] (arm_bayes_example) JobStarted: {'identifier': 'arm_bayes_example'}
+[0.021170] (arm_class_marks_example) JobStarted: {'identifier': 'arm_class_marks_example'}
+[0.031366] (CMSISDSP) JobProgress: {'identifier': 'CMSISDSP', 'progress': 'cmake'}
+[0.032411] (CMSISDSP) Command: {'cmd': ['/usr/bin/cmake', '/home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source', '-DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/f401re_micro_ros/install/CMSISDSP'], 'cwd': '/home/rahul/robotic_arm/f401re_micro_ros/build/CMSISDSP', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'rahul'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/rahul/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul/robotic_arm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2978'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rahul/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rahul'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-XPS-13-9350:@/tmp/.ICE-unix/1929,unix/rahul-XPS-13-9350:/tmp/.ICE-unix/1929'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb012bc3_da6d_4fa5_b0fc_f8adc4bc8b38'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AO9T52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/robotic_arm/f401re_micro_ros/build/CMSISDSP'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces')]), 'shell': False}
+[0.037070] (CMSISNN) JobProgress: {'identifier': 'CMSISNN', 'progress': 'cmake'}
+[0.038916] (CMSISNN) Command: {'cmd': ['/usr/bin/cmake', '/home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/NN', '-DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/f401re_micro_ros/install/CMSISNN'], 'cwd': '/home/rahul/robotic_arm/f401re_micro_ros/build/CMSISNN', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'rahul'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/rahul/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul/robotic_arm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2978'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rahul/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rahul'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-XPS-13-9350:@/tmp/.ICE-unix/1929,unix/rahul-XPS-13-9350:/tmp/.ICE-unix/1929'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb012bc3_da6d_4fa5_b0fc_f8adc4bc8b38'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AO9T52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/robotic_arm/f401re_micro_ros/build/CMSISNN'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces')]), 'shell': False}
+[0.042293] (arm_bayes_example) JobProgress: {'identifier': 'arm_bayes_example', 'progress': 'cmake'}
+[0.042903] (arm_bayes_example) Command: {'cmd': ['/usr/bin/cmake', '/home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Examples/ARM/arm_bayes_example', '-DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/f401re_micro_ros/install/arm_bayes_example'], 'cwd': '/home/rahul/robotic_arm/f401re_micro_ros/build/arm_bayes_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'rahul'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/rahul/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul/robotic_arm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2978'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rahul/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rahul'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-XPS-13-9350:@/tmp/.ICE-unix/1929,unix/rahul-XPS-13-9350:/tmp/.ICE-unix/1929'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb012bc3_da6d_4fa5_b0fc_f8adc4bc8b38'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AO9T52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/robotic_arm/f401re_micro_ros/build/arm_bayes_example'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces')]), 'shell': False}
+[0.051220] (arm_class_marks_example) JobProgress: {'identifier': 'arm_class_marks_example', 'progress': 'cmake'}
+[0.051642] (arm_class_marks_example) Command: {'cmd': ['/usr/bin/cmake', '/home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Examples/ARM/arm_class_marks_example', '-DCMAKE_INSTALL_PREFIX=/home/rahul/robotic_arm/f401re_micro_ros/install/arm_class_marks_example'], 'cwd': '/home/rahul/robotic_arm/f401re_micro_ros/build/arm_class_marks_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'rahul'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/rahul/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul/robotic_arm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2978'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rahul/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rahul'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-XPS-13-9350:@/tmp/.ICE-unix/1929,unix/rahul-XPS-13-9350:/tmp/.ICE-unix/1929'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb012bc3_da6d_4fa5_b0fc_f8adc4bc8b38'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AO9T52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces:/home/rahul/ros2_ws/install/ps4_servo_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/robotic_arm/f401re_micro_ros/build/arm_class_marks_example'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rahul/ros2_ws/install/robotic_arm_interfaces/local/lib/python3.10/dist-packages:/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/ros2_ws/install/joy_to_arm_interface:/home/rahul/ros2_ws/install/robotic_arm_interfaces')]), 'shell': False}
+[0.102039] (-) TimerEvent: {}
+[0.170388] (CMSISNN) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.172889] (CMSISDSP) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.175839] (arm_bayes_example) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.182328] (arm_class_marks_example) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.202874] (-) TimerEvent: {}
+[0.304065] (-) TimerEvent: {}
+[0.309905] (arm_bayes_example) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.310886] (CMSISNN) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.312376] (CMSISDSP) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.317607] (arm_class_marks_example) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.325805] (arm_bayes_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.326090] (CMSISDSP) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.329987] (CMSISNN) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.337614] (arm_class_marks_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.404333] (-) TimerEvent: {}
+[0.487975] (arm_bayes_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.490046] (arm_class_marks_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.496998] (CMSISNN) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.504445] (-) TimerEvent: {}
+[0.505271] (CMSISDSP) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.506722] (arm_bayes_example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.506921] (arm_bayes_example) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.507553] (arm_bayes_example) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.510684] (arm_class_marks_example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.510949] (arm_class_marks_example) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.511240] (arm_class_marks_example) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.514262] (arm_bayes_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.517982] (arm_class_marks_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.526879] (CMSISNN) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.527190] (CMSISNN) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.527835] (CMSISNN) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.530328] (CMSISDSP) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.533460] (CMSISDSP) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.533951] (CMSISDSP) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.540455] (CMSISNN) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.545261] (CMSISDSP) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.605076] (-) TimerEvent: {}
+[0.700108] (arm_bayes_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.705202] (-) TimerEvent: {}
+[0.709604] (arm_class_marks_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.721163] (arm_bayes_example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.723659] (arm_bayes_example) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.723967] (arm_bayes_example) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.725981] (CMSISNN) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.729451] (arm_bayes_example) StderrLine: {'line': b'\x1b[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/CMakeLists.txt:12 (include):\n'}
+[0.730125] (arm_bayes_example) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.730346] (arm_bayes_example) StderrLine: {'line': b'\n'}
+[0.730480] (arm_bayes_example) StderrLine: {'line': b'    configLib\n'}
+[0.730610] (arm_bayes_example) StderrLine: {'line': b'\n'}
+[0.730740] (arm_bayes_example) StderrLine: {'line': b'\x1b[0m\n'}
+[0.730867] (arm_bayes_example) StderrLine: {'line': b'\x1b[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:5 (include):\n'}
+[0.731023] (arm_bayes_example) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.731180] (arm_bayes_example) StderrLine: {'line': b'\n'}
+[0.731306] (arm_bayes_example) StderrLine: {'line': b'    configLib\n'}
+[0.731450] (arm_bayes_example) StderrLine: {'line': b'\n'}
+[0.734390] (arm_bayes_example) StderrLine: {'line': b'\x1b[0m\n'}
+[0.735275] (arm_bayes_example) StderrLine: {'line': b'\x1b[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:6 (include):\n'}
+[0.735485] (arm_bayes_example) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.735700] (arm_bayes_example) StderrLine: {'line': b'\n'}
+[0.735824] (arm_bayes_example) StderrLine: {'line': b'    configDsp\n'}
+[0.736118] (arm_bayes_example) StderrLine: {'line': b'\n'}
+[0.737909] (arm_bayes_example) StderrLine: {'line': b'\x1b[0m\n'}
+[0.738075] (arm_bayes_example) StderrLine: {'line': b'\x1b[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:34 (configLib):\n'}
+[0.738403] (arm_bayes_example) StderrLine: {'line': b'  Unknown CMake command "configLib".\n'}
+[0.738532] (arm_bayes_example) StderrLine: {'line': b'\n'}
+[0.738658] (arm_bayes_example) StderrLine: {'line': b'\x1b[0m\n'}
+[0.738863] (arm_class_marks_example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.739032] (arm_class_marks_example) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.739358] (CMSISDSP) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.739508] (arm_bayes_example) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.739648] (arm_bayes_example) StdoutLine: {'line': b'See also "/home/rahul/robotic_arm/f401re_micro_ros/build/arm_bayes_example/CMakeFiles/CMakeOutput.log".\n'}
+[0.739770] (arm_class_marks_example) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.739892] (arm_bayes_example) CommandEnded: {'returncode': 1}
+[0.740476] (arm_bayes_example) JobEnded: {'identifier': 'arm_bayes_example', 'rc': 1}
+[0.741212] (arm_class_marks_example) StderrLine: {'line': b'\x1b[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/CMakeLists.txt:12 (include):\n'}
+[0.741433] (arm_class_marks_example) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.741567] (arm_class_marks_example) StderrLine: {'line': b'\n'}
+[0.741694] (arm_class_marks_example) StderrLine: {'line': b'    configLib\n'}
+[0.741828] (arm_class_marks_example) StderrLine: {'line': b'\n'}
+[0.741969] (arm_class_marks_example) StderrLine: {'line': b'\x1b[0m\n'}
+[0.742111] (arm_class_marks_example) StderrLine: {'line': b'\x1b[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:5 (include):\n'}
+[0.742239] (arm_class_marks_example) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.742361] (arm_class_marks_example) StderrLine: {'line': b'\n'}
+[0.742483] (arm_class_marks_example) StderrLine: {'line': b'    configLib\n'}
+[0.742606] (arm_class_marks_example) StderrLine: {'line': b'\n'}
+[0.742725] (arm_class_marks_example) StderrLine: {'line': b'\x1b[0m\n'}
+[0.742844] (arm_class_marks_example) StderrLine: {'line': b'\x1b[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:6 (include):\n'}
+[0.742992] (arm_class_marks_example) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.743128] (arm_class_marks_example) StderrLine: {'line': b'\n'}
+[0.743248] (arm_class_marks_example) StderrLine: {'line': b'    configDsp\n'}
+[0.743369] (arm_class_marks_example) StderrLine: {'line': b'\n'}
+[0.743494] (arm_class_marks_example) StderrLine: {'line': b'\x1b[0m\n'}
+[0.743615] (arm_class_marks_example) StderrLine: {'line': b'\x1b[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:34 (configLib):\n'}
+[0.743739] (arm_class_marks_example) StderrLine: {'line': b'  Unknown CMake command "configLib".\n'}
+[0.743861] (arm_class_marks_example) StderrLine: {'line': b'\n'}
+[0.743988] (arm_class_marks_example) StderrLine: {'line': b'\x1b[0m\n'}
+[0.744108] (arm_class_marks_example) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.744237] (arm_class_marks_example) StdoutLine: {'line': b'See also "/home/rahul/robotic_arm/f401re_micro_ros/build/arm_class_marks_example/CMakeFiles/CMakeOutput.log".\n'}
+[0.746355] (arm_class_marks_example) JobEnded: {'identifier': 'arm_class_marks_example', 'rc': 'SIGINT'}
+[0.748671] (CMSISNN) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.749186] (CMSISNN) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.749803] (CMSISNN) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.753788] (CMSISDSP) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.754211] (CMSISDSP) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.755217] (CMSISDSP) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.756137] (CMSISDSP) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (include):\n'}
+[0.756385] (CMSISDSP) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.756524] (CMSISDSP) StderrLine: {'line': b'\n'}
+[0.756646] (CMSISDSP) StderrLine: {'line': b'    configLib\n'}
+[0.756827] (CMSISDSP) StderrLine: {'line': b'\n'}
+[0.757004] (CMSISDSP) StderrLine: {'line': b'\x1b[0m\n'}
+[0.757319] (CMSISDSP) StderrLine: {'line': b'\x1b[31mCMake Error at BasicMathFunctions/CMakeLists.txt:5 (include):\n'}
+[0.757478] (CMSISDSP) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.757616] (CMSISDSP) StderrLine: {'line': b'\n'}
+[0.757773] (CMSISDSP) StderrLine: {'line': b'    configLib\n'}
+[0.757946] (CMSISDSP) StderrLine: {'line': b'\n'}
+[0.758182] (CMSISDSP) StderrLine: {'line': b'\x1b[0m\n'}
+[0.758309] (CMSISDSP) StderrLine: {'line': b'\x1b[31mCMake Error at BasicMathFunctions/CMakeLists.txt:6 (include):\n'}
+[0.758436] (CMSISDSP) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.758560] (CMSISDSP) StderrLine: {'line': b'\n'}
+[0.758699] (CMSISDSP) StderrLine: {'line': b'    configDsp\n'}
+[0.758863] (CMSISDSP) StderrLine: {'line': b'\n'}
+[0.759154] (CMSISDSP) StderrLine: {'line': b'\x1b[0m\n'}
+[0.759345] (CMSISDSP) StderrLine: {'line': b'\x1b[31mCMake Error at BasicMathFunctions/CMakeLists.txt:34 (configLib):\n'}
+[0.759483] (CMSISDSP) StderrLine: {'line': b'  Unknown CMake command "configLib".\n'}
+[0.759617] (CMSISDSP) StderrLine: {'line': b'\n'}
+[0.759753] (CMSISDSP) StderrLine: {'line': b'\x1b[0m\n'}
+[0.759885] (CMSISDSP) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.760117] (CMSISDSP) StdoutLine: {'line': b'See also "/home/rahul/robotic_arm/f401re_micro_ros/build/CMSISDSP/CMakeFiles/CMakeOutput.log".\n'}
+[0.760256] (CMSISNN) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.766293] (CMSISDSP) JobEnded: {'identifier': 'CMSISDSP', 'rc': 'SIGINT'}
+[0.786616] (CMSISNN) StdoutLine: {'line': b'-- Generating done\n'}
+[0.792580] (CMSISNN) StdoutLine: {'line': b'-- Build files have been written to: /home/rahul/robotic_arm/f401re_micro_ros/build/CMSISNN\n'}
+[0.797469] (CMSISNN) JobEnded: {'identifier': 'CMSISNN', 'rc': 'SIGINT'}
+[0.805423] (-) TimerEvent: {}
+[0.808228] (arm_convolution_example) JobSkipped: {'identifier': 'arm_convolution_example'}
+[0.808277] (arm_dotproduct_example) JobSkipped: {'identifier': 'arm_dotproduct_example'}
+[0.808338] (arm_fft_bin_example) JobSkipped: {'identifier': 'arm_fft_bin_example'}
+[0.808378] (arm_fir_example) JobSkipped: {'identifier': 'arm_fir_example'}
+[0.808412] (arm_graphic_equalizer_example) JobSkipped: {'identifier': 'arm_graphic_equalizer_example'}
+[0.808432] (arm_linear_interp_example) JobSkipped: {'identifier': 'arm_linear_interp_example'}
+[0.808450] (arm_matrix_example) JobSkipped: {'identifier': 'arm_matrix_example'}
+[0.808467] (arm_signal_convergence_example) JobSkipped: {'identifier': 'arm_signal_convergence_example'}
+[0.808487] (arm_sin_cos_example) JobSkipped: {'identifier': 'arm_sin_cos_example'}
+[0.808534] (arm_svm_example) JobSkipped: {'identifier': 'arm_svm_example'}
+[0.808565] (arm_variance_example) JobSkipped: {'identifier': 'arm_variance_example'}
+[0.808585] (micro_ros_stmcube) JobSkipped: {'identifier': 'micro_ros_stmcube'}
+[0.808605] (-) EventReactorShutdown: {}

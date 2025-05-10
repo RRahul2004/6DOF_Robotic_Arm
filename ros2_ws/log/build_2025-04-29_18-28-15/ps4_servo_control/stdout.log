@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/ps4_servo_control/ps4_servo_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/ps4_servo_control/ps4_servo_control.egg-info/dependency_links.txt
+writing entry points to ../../build/ps4_servo_control/ps4_servo_control.egg-info/entry_points.txt
+writing requirements to ../../build/ps4_servo_control/ps4_servo_control.egg-info/requires.txt
+writing top-level names to ../../build/ps4_servo_control/ps4_servo_control.egg-info/top_level.txt
+reading manifest file '../../build/ps4_servo_control/ps4_servo_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/ps4_servo_control/ps4_servo_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ps4_servo_control/__init__.py -> /home/rahul/ros2_ws/build/ps4_servo_control/build/lib/ps4_servo_control
+running install
+running install_lib
+copying /home/rahul/ros2_ws/build/ps4_servo_control/build/lib/ps4_servo_control/__init__.py -> /home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages/ps4_servo_control
+byte-compiling /home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages/ps4_servo_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages/ps4_servo_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ps4_servo_control/ps4_servo_control.egg-info to /home/rahul/ros2_ws/install/ps4_servo_control/lib/python3.10/site-packages/ps4_servo_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ps4_control_node script to /home/rahul/ros2_ws/install/ps4_servo_control/lib/ps4_servo_control
+writing list of installed files to '/home/rahul/ros2_ws/build/ps4_servo_control/install.log'

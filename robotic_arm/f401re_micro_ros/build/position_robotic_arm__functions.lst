@@ -1,0 +1,1748 @@
+ARM GAS  /tmp/ccP65YDS.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"position_robotic_arm__functions.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__init,"ax",%progbits
+  18              		.align	1
+  19              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__init
+  20              		.arch armv7e-m
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  24              		.fpu fpv4-sp-d16
+  26              	robotic_arm_interfaces__msg__PositionRoboticArm__init:
+  27              	.LVL0:
+  28              	.LFB0:
+  29              		.file 1 "Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c"
+   1:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** // generated from rosidl_generator_c/resource/idl__functions.c.em
+   2:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** // with input from robotic_arm_interfaces:msg/PositionRoboticArm.idl
+   3:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** // generated code does not contain a copyright notice
+   4:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** #include "robotic_arm_interfaces/msg/detail/position_robotic_arm__functions.h"
+   5:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+   6:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** #include <assert.h>
+   7:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** #include <stdbool.h>
+   8:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** #include <stdlib.h>
+   9:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** #include <string.h>
+  10:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+  11:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** #include "rcutils/allocator.h"
+  12:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+  13:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+  14:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** bool
+  15:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__init(robotic_arm_interfaces__msg__PositionRoboticA
+  16:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+  30              		.loc 1 16 1 view -0
+  31              		.cfi_startproc
+  32              		@ args = 0, pretend = 0, frame = 0
+  33              		@ frame_needed = 0, uses_anonymous_args = 0
+  34              		@ link register save eliminated.
+  17:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!msg) {
+  35              		.loc 1 17 3 view .LVU1
+  36              		.loc 1 17 6 is_stmt 0 view .LVU2
+  37 0000 08B1     		cbz	r0, .L3
+  18:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+  19:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+  20:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_1
+  21:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_2
+ARM GAS  /tmp/ccP65YDS.s 			page 2
+
+
+  22:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_3
+  23:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_4
+  24:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_5
+  25:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_6
+  26:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // stepper
+  27:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   return true;
+  38              		.loc 1 27 10 view .LVU3
+  39 0002 0120     		movs	r0, #1
+  40              	.LVL1:
+  41              		.loc 1 27 10 view .LVU4
+  42 0004 7047     		bx	lr
+  43              	.LVL2:
+  44              	.L3:
+  18:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+  45              		.loc 1 18 12 view .LVU5
+  46 0006 0020     		movs	r0, #0
+  47              	.LVL3:
+  28:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+  48              		.loc 1 28 1 view .LVU6
+  49 0008 7047     		bx	lr
+  50              		.cfi_endproc
+  51              	.LFE0:
+  53              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__fini,"ax",%progbits
+  54              		.align	1
+  55              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__fini
+  56              		.syntax unified
+  57              		.thumb
+  58              		.thumb_func
+  59              		.fpu fpv4-sp-d16
+  61              	robotic_arm_interfaces__msg__PositionRoboticArm__fini:
+  62              	.LVL4:
+  63              	.LFB1:
+  29:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+  30:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** void
+  31:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__fini(robotic_arm_interfaces__msg__PositionRoboticA
+  32:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+  64              		.loc 1 32 1 is_stmt 1 view -0
+  65              		.cfi_startproc
+  66              		@ args = 0, pretend = 0, frame = 0
+  67              		@ frame_needed = 0, uses_anonymous_args = 0
+  68              		@ link register save eliminated.
+  33:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!msg) {
+  69              		.loc 1 33 3 view .LVU8
+  34:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return;
+  35:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+  36:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_1
+  37:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_2
+  38:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_3
+  39:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_4
+  40:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_5
+  41:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_6
+  42:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // stepper
+  43:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+  70              		.loc 1 43 1 is_stmt 0 view .LVU9
+  71 0000 7047     		bx	lr
+  72              		.cfi_endproc
+  73              	.LFE1:
+ARM GAS  /tmp/ccP65YDS.s 			page 3
+
+
+  75              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__are_equal,"ax",%progbits
+  76              		.align	1
+  77              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__are_equal
+  78              		.syntax unified
+  79              		.thumb
+  80              		.thumb_func
+  81              		.fpu fpv4-sp-d16
+  83              	robotic_arm_interfaces__msg__PositionRoboticArm__are_equal:
+  84              	.LVL5:
+  85              	.LFB2:
+  44:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+  45:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** bool
+  46:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__are_equal(const robotic_arm_interfaces__msg__Posit
+  47:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+  86              		.loc 1 47 1 is_stmt 1 view -0
+  87              		.cfi_startproc
+  88              		@ args = 0, pretend = 0, frame = 0
+  89              		@ frame_needed = 0, uses_anonymous_args = 0
+  90              		@ link register save eliminated.
+  48:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!lhs || !rhs) {
+  91              		.loc 1 48 3 view .LVU11
+  92              		.loc 1 48 6 is_stmt 0 view .LVU12
+  93 0000 0028     		cmp	r0, #0
+  94 0002 42D0     		beq	.L7
+  95              		.loc 1 48 12 discriminator 1 view .LVU13
+  96 0004 0029     		cmp	r1, #0
+  97 0006 42D0     		beq	.L8
+  49:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+  50:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+  51:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_1
+  52:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (lhs->servo_1 != rhs->servo_1) {
+  98              		.loc 1 52 3 is_stmt 1 view .LVU14
+  99              		.loc 1 52 10 is_stmt 0 view .LVU15
+ 100 0008 90ED007A 		vldr.32	s14, [r0]
+ 101              		.loc 1 52 26 view .LVU16
+ 102 000c D1ED007A 		vldr.32	s15, [r1]
+ 103              		.loc 1 52 6 view .LVU17
+ 104 0010 B4EE677A 		vcmp.f32	s14, s15
+ 105 0014 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 106 0018 3BD1     		bne	.L9
+  53:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+  54:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+  55:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_2
+  56:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (lhs->servo_2 != rhs->servo_2) {
+ 107              		.loc 1 56 3 is_stmt 1 view .LVU18
+ 108              		.loc 1 56 10 is_stmt 0 view .LVU19
+ 109 001a 90ED017A 		vldr.32	s14, [r0, #4]
+ 110              		.loc 1 56 26 view .LVU20
+ 111 001e D1ED017A 		vldr.32	s15, [r1, #4]
+ 112              		.loc 1 56 6 view .LVU21
+ 113 0022 B4EE677A 		vcmp.f32	s14, s15
+ 114 0026 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 115 002a 34D1     		bne	.L10
+  57:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+  58:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+  59:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_3
+  60:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (lhs->servo_3 != rhs->servo_3) {
+ARM GAS  /tmp/ccP65YDS.s 			page 4
+
+
+ 116              		.loc 1 60 3 is_stmt 1 view .LVU22
+ 117              		.loc 1 60 10 is_stmt 0 view .LVU23
+ 118 002c 90ED027A 		vldr.32	s14, [r0, #8]
+ 119              		.loc 1 60 26 view .LVU24
+ 120 0030 D1ED027A 		vldr.32	s15, [r1, #8]
+ 121              		.loc 1 60 6 view .LVU25
+ 122 0034 B4EE677A 		vcmp.f32	s14, s15
+ 123 0038 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 124 003c 2DD1     		bne	.L11
+  61:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+  62:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+  63:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_4
+  64:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (lhs->servo_4 != rhs->servo_4) {
+ 125              		.loc 1 64 3 is_stmt 1 view .LVU26
+ 126              		.loc 1 64 10 is_stmt 0 view .LVU27
+ 127 003e 90ED037A 		vldr.32	s14, [r0, #12]
+ 128              		.loc 1 64 26 view .LVU28
+ 129 0042 D1ED037A 		vldr.32	s15, [r1, #12]
+ 130              		.loc 1 64 6 view .LVU29
+ 131 0046 B4EE677A 		vcmp.f32	s14, s15
+ 132 004a F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 133 004e 26D1     		bne	.L12
+  65:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+  66:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+  67:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_5
+  68:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (lhs->servo_5 != rhs->servo_5) {
+ 134              		.loc 1 68 3 is_stmt 1 view .LVU30
+ 135              		.loc 1 68 10 is_stmt 0 view .LVU31
+ 136 0050 90ED047A 		vldr.32	s14, [r0, #16]
+ 137              		.loc 1 68 26 view .LVU32
+ 138 0054 D1ED047A 		vldr.32	s15, [r1, #16]
+ 139              		.loc 1 68 6 view .LVU33
+ 140 0058 B4EE677A 		vcmp.f32	s14, s15
+ 141 005c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 142 0060 1FD1     		bne	.L13
+  69:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+  70:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+  71:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_6
+  72:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (lhs->servo_6 != rhs->servo_6) {
+ 143              		.loc 1 72 3 is_stmt 1 view .LVU34
+ 144              		.loc 1 72 10 is_stmt 0 view .LVU35
+ 145 0062 90ED057A 		vldr.32	s14, [r0, #20]
+ 146              		.loc 1 72 26 view .LVU36
+ 147 0066 D1ED057A 		vldr.32	s15, [r1, #20]
+ 148              		.loc 1 72 6 view .LVU37
+ 149 006a B4EE677A 		vcmp.f32	s14, s15
+ 150 006e F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 151 0072 18D1     		bne	.L14
+  73:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+  74:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+  75:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // stepper
+  76:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (lhs->stepper != rhs->stepper) {
+ 152              		.loc 1 76 3 is_stmt 1 view .LVU38
+ 153              		.loc 1 76 10 is_stmt 0 view .LVU39
+ 154 0074 90ED067A 		vldr.32	s14, [r0, #24]
+ 155              		.loc 1 76 26 view .LVU40
+ 156 0078 D1ED067A 		vldr.32	s15, [r1, #24]
+ARM GAS  /tmp/ccP65YDS.s 			page 5
+
+
+ 157              		.loc 1 76 6 view .LVU41
+ 158 007c B4EE677A 		vcmp.f32	s14, s15
+ 159 0080 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 160 0084 11D1     		bne	.L15
+  77:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+  78:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+  79:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   return true;
+ 161              		.loc 1 79 10 view .LVU42
+ 162 0086 0120     		movs	r0, #1
+ 163              	.LVL6:
+ 164              		.loc 1 79 10 view .LVU43
+ 165 0088 7047     		bx	lr
+ 166              	.LVL7:
+ 167              	.L7:
+  49:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 168              		.loc 1 49 12 view .LVU44
+ 169 008a 0020     		movs	r0, #0
+ 170              	.LVL8:
+  49:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 171              		.loc 1 49 12 view .LVU45
+ 172 008c 7047     		bx	lr
+ 173              	.LVL9:
+ 174              	.L8:
+  49:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 175              		.loc 1 49 12 view .LVU46
+ 176 008e 0020     		movs	r0, #0
+ 177              	.LVL10:
+  49:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 178              		.loc 1 49 12 view .LVU47
+ 179 0090 7047     		bx	lr
+ 180              	.LVL11:
+ 181              	.L9:
+  53:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 182              		.loc 1 53 12 view .LVU48
+ 183 0092 0020     		movs	r0, #0
+ 184              	.LVL12:
+  53:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 185              		.loc 1 53 12 view .LVU49
+ 186 0094 7047     		bx	lr
+ 187              	.LVL13:
+ 188              	.L10:
+  57:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 189              		.loc 1 57 12 view .LVU50
+ 190 0096 0020     		movs	r0, #0
+ 191              	.LVL14:
+  57:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 192              		.loc 1 57 12 view .LVU51
+ 193 0098 7047     		bx	lr
+ 194              	.LVL15:
+ 195              	.L11:
+  61:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 196              		.loc 1 61 12 view .LVU52
+ 197 009a 0020     		movs	r0, #0
+ 198              	.LVL16:
+  61:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 199              		.loc 1 61 12 view .LVU53
+ 200 009c 7047     		bx	lr
+ARM GAS  /tmp/ccP65YDS.s 			page 6
+
+
+ 201              	.LVL17:
+ 202              	.L12:
+  65:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 203              		.loc 1 65 12 view .LVU54
+ 204 009e 0020     		movs	r0, #0
+ 205              	.LVL18:
+  65:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 206              		.loc 1 65 12 view .LVU55
+ 207 00a0 7047     		bx	lr
+ 208              	.LVL19:
+ 209              	.L13:
+  69:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 210              		.loc 1 69 12 view .LVU56
+ 211 00a2 0020     		movs	r0, #0
+ 212              	.LVL20:
+  69:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 213              		.loc 1 69 12 view .LVU57
+ 214 00a4 7047     		bx	lr
+ 215              	.LVL21:
+ 216              	.L14:
+  73:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 217              		.loc 1 73 12 view .LVU58
+ 218 00a6 0020     		movs	r0, #0
+ 219              	.LVL22:
+  73:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 220              		.loc 1 73 12 view .LVU59
+ 221 00a8 7047     		bx	lr
+ 222              	.LVL23:
+ 223              	.L15:
+  77:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 224              		.loc 1 77 12 view .LVU60
+ 225 00aa 0020     		movs	r0, #0
+ 226              	.LVL24:
+  80:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+ 227              		.loc 1 80 1 view .LVU61
+ 228 00ac 7047     		bx	lr
+ 229              		.cfi_endproc
+ 230              	.LFE2:
+ 232              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__copy,"ax",%progbits
+ 233              		.align	1
+ 234              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__copy
+ 235              		.syntax unified
+ 236              		.thumb
+ 237              		.thumb_func
+ 238              		.fpu fpv4-sp-d16
+ 240              	robotic_arm_interfaces__msg__PositionRoboticArm__copy:
+ 241              	.LVL25:
+ 242              	.LFB3:
+  81:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+  82:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** bool
+  83:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__copy(
+  84:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   const robotic_arm_interfaces__msg__PositionRoboticArm * input,
+  85:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   robotic_arm_interfaces__msg__PositionRoboticArm * output)
+  86:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+ 243              		.loc 1 86 1 is_stmt 1 view -0
+ 244              		.cfi_startproc
+ 245              		@ args = 0, pretend = 0, frame = 0
+ARM GAS  /tmp/ccP65YDS.s 			page 7
+
+
+ 246              		@ frame_needed = 0, uses_anonymous_args = 0
+ 247              		@ link register save eliminated.
+  87:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!input || !output) {
+ 248              		.loc 1 87 3 view .LVU63
+ 249              		.loc 1 87 6 is_stmt 0 view .LVU64
+ 250 0000 80B1     		cbz	r0, .L18
+ 251              		.loc 1 87 14 discriminator 1 view .LVU65
+ 252 0002 89B1     		cbz	r1, .L19
+  88:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+  89:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+  90:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_1
+  91:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   output->servo_1 = input->servo_1;
+ 253              		.loc 1 91 3 is_stmt 1 view .LVU66
+ 254              		.loc 1 91 26 is_stmt 0 view .LVU67
+ 255 0004 0268     		ldr	r2, [r0]	@ float
+ 256              		.loc 1 91 19 view .LVU68
+ 257 0006 0A60     		str	r2, [r1]	@ float
+  92:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_2
+  93:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   output->servo_2 = input->servo_2;
+ 258              		.loc 1 93 3 is_stmt 1 view .LVU69
+ 259              		.loc 1 93 26 is_stmt 0 view .LVU70
+ 260 0008 4268     		ldr	r2, [r0, #4]	@ float
+ 261              		.loc 1 93 19 view .LVU71
+ 262 000a 4A60     		str	r2, [r1, #4]	@ float
+  94:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_3
+  95:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   output->servo_3 = input->servo_3;
+ 263              		.loc 1 95 3 is_stmt 1 view .LVU72
+ 264              		.loc 1 95 26 is_stmt 0 view .LVU73
+ 265 000c 8268     		ldr	r2, [r0, #8]	@ float
+ 266              		.loc 1 95 19 view .LVU74
+ 267 000e 8A60     		str	r2, [r1, #8]	@ float
+  96:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_4
+  97:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   output->servo_4 = input->servo_4;
+ 268              		.loc 1 97 3 is_stmt 1 view .LVU75
+ 269              		.loc 1 97 26 is_stmt 0 view .LVU76
+ 270 0010 C268     		ldr	r2, [r0, #12]	@ float
+ 271              		.loc 1 97 19 view .LVU77
+ 272 0012 CA60     		str	r2, [r1, #12]	@ float
+  98:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_5
+  99:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   output->servo_5 = input->servo_5;
+ 273              		.loc 1 99 3 is_stmt 1 view .LVU78
+ 274              		.loc 1 99 26 is_stmt 0 view .LVU79
+ 275 0014 0269     		ldr	r2, [r0, #16]	@ float
+ 276              		.loc 1 99 19 view .LVU80
+ 277 0016 0A61     		str	r2, [r1, #16]	@ float
+ 100:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // servo_6
+ 101:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   output->servo_6 = input->servo_6;
+ 278              		.loc 1 101 3 is_stmt 1 view .LVU81
+ 279              		.loc 1 101 26 is_stmt 0 view .LVU82
+ 280 0018 4269     		ldr	r2, [r0, #20]	@ float
+ 281              		.loc 1 101 19 view .LVU83
+ 282 001a 4A61     		str	r2, [r1, #20]	@ float
+ 102:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   // stepper
+ 103:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   output->stepper = input->stepper;
+ 283              		.loc 1 103 3 is_stmt 1 view .LVU84
+ 284              		.loc 1 103 26 is_stmt 0 view .LVU85
+ 285 001c 8369     		ldr	r3, [r0, #24]	@ float
+ARM GAS  /tmp/ccP65YDS.s 			page 8
+
+
+ 286              		.loc 1 103 19 view .LVU86
+ 287 001e 8B61     		str	r3, [r1, #24]	@ float
+ 104:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   return true;
+ 288              		.loc 1 104 3 is_stmt 1 view .LVU87
+ 289              		.loc 1 104 10 is_stmt 0 view .LVU88
+ 290 0020 0120     		movs	r0, #1
+ 291              	.LVL26:
+ 292              		.loc 1 104 10 view .LVU89
+ 293 0022 7047     		bx	lr
+ 294              	.LVL27:
+ 295              	.L18:
+  88:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 296              		.loc 1 88 12 view .LVU90
+ 297 0024 0020     		movs	r0, #0
+ 298              	.LVL28:
+  88:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 299              		.loc 1 88 12 view .LVU91
+ 300 0026 7047     		bx	lr
+ 301              	.LVL29:
+ 302              	.L19:
+  88:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 303              		.loc 1 88 12 view .LVU92
+ 304 0028 0020     		movs	r0, #0
+ 305              	.LVL30:
+ 105:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+ 306              		.loc 1 105 1 view .LVU93
+ 307 002a 7047     		bx	lr
+ 308              		.cfi_endproc
+ 309              	.LFE3:
+ 311              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__create,"ax",%progbits
+ 312              		.align	1
+ 313              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__create
+ 314              		.syntax unified
+ 315              		.thumb
+ 316              		.thumb_func
+ 317              		.fpu fpv4-sp-d16
+ 319              	robotic_arm_interfaces__msg__PositionRoboticArm__create:
+ 320              	.LFB4:
+ 106:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 107:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm *
+ 108:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__create()
+ 109:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+ 321              		.loc 1 109 1 is_stmt 1 view -0
+ 322              		.cfi_startproc
+ 323              		@ args = 0, pretend = 0, frame = 24
+ 324              		@ frame_needed = 0, uses_anonymous_args = 0
+ 325 0000 30B5     		push	{r4, r5, lr}
+ 326              	.LCFI0:
+ 327              		.cfi_def_cfa_offset 12
+ 328              		.cfi_offset 4, -12
+ 329              		.cfi_offset 5, -8
+ 330              		.cfi_offset 14, -4
+ 331 0002 87B0     		sub	sp, sp, #28
+ 332              	.LCFI1:
+ 333              		.cfi_def_cfa_offset 40
+ 110:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   rcutils_allocator_t allocator = rcutils_get_default_allocator();
+ 334              		.loc 1 110 3 view .LVU95
+ARM GAS  /tmp/ccP65YDS.s 			page 9
+
+
+ 335              		.loc 1 110 35 is_stmt 0 view .LVU96
+ 336 0004 01A8     		add	r0, sp, #4
+ 337 0006 FFF7FEFF 		bl	rcutils_get_default_allocator
+ 338              	.LVL31:
+ 111:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   robotic_arm_interfaces__msg__PositionRoboticArm * msg = (robotic_arm_interfaces__msg__PositionRob
+ 339              		.loc 1 111 3 is_stmt 1 view .LVU97
+ 340              		.loc 1 111 110 is_stmt 0 view .LVU98
+ 341 000a 059D     		ldr	r5, [sp, #20]
+ 342 000c 2946     		mov	r1, r5
+ 343 000e 1C20     		movs	r0, #28
+ 344 0010 019B     		ldr	r3, [sp, #4]
+ 345 0012 9847     		blx	r3
+ 346              	.LVL32:
+ 112:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!msg) {
+ 347              		.loc 1 112 3 is_stmt 1 view .LVU99
+ 348              		.loc 1 112 6 is_stmt 0 view .LVU100
+ 349 0014 0446     		mov	r4, r0
+ 350 0016 50B1     		cbz	r0, .L20
+ 113:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return NULL;
+ 114:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 115:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   memset(msg, 0, sizeof(robotic_arm_interfaces__msg__PositionRoboticArm));
+ 351              		.loc 1 115 3 is_stmt 1 view .LVU101
+ 352 0018 0023     		movs	r3, #0
+ 353 001a 0360     		str	r3, [r0]	@ unaligned
+ 354 001c 4360     		str	r3, [r0, #4]	@ unaligned
+ 355 001e 8360     		str	r3, [r0, #8]	@ unaligned
+ 356 0020 C360     		str	r3, [r0, #12]	@ unaligned
+ 357 0022 0361     		str	r3, [r0, #16]	@ unaligned
+ 358 0024 4361     		str	r3, [r0, #20]	@ unaligned
+ 359 0026 8361     		str	r3, [r0, #24]	@ unaligned
+ 116:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   bool success = robotic_arm_interfaces__msg__PositionRoboticArm__init(msg);
+ 360              		.loc 1 116 3 view .LVU102
+ 361              		.loc 1 116 18 is_stmt 0 view .LVU103
+ 362 0028 FFF7FEFF 		bl	robotic_arm_interfaces__msg__PositionRoboticArm__init
+ 363              	.LVL33:
+ 117:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!success) {
+ 364              		.loc 1 117 3 is_stmt 1 view .LVU104
+ 365              		.loc 1 117 6 is_stmt 0 view .LVU105
+ 366 002c 10B1     		cbz	r0, .L23
+ 367              	.LVL34:
+ 368              	.L20:
+ 118:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     allocator.deallocate(msg, allocator.state);
+ 119:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return NULL;
+ 120:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 121:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   return msg;
+ 122:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+ 369              		.loc 1 122 1 view .LVU106
+ 370 002e 2046     		mov	r0, r4
+ 371 0030 07B0     		add	sp, sp, #28
+ 372              	.LCFI2:
+ 373              		.cfi_remember_state
+ 374              		.cfi_def_cfa_offset 12
+ 375              		@ sp needed
+ 376 0032 30BD     		pop	{r4, r5, pc}
+ 377              	.LVL35:
+ 378              	.L23:
+ 379              	.LCFI3:
+ARM GAS  /tmp/ccP65YDS.s 			page 10
+
+
+ 380              		.cfi_restore_state
+ 118:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     allocator.deallocate(msg, allocator.state);
+ 381              		.loc 1 118 5 is_stmt 1 view .LVU107
+ 382 0034 2946     		mov	r1, r5
+ 383 0036 2046     		mov	r0, r4
+ 384              	.LVL36:
+ 118:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     allocator.deallocate(msg, allocator.state);
+ 385              		.loc 1 118 5 is_stmt 0 view .LVU108
+ 386 0038 029B     		ldr	r3, [sp, #8]
+ 387 003a 9847     		blx	r3
+ 388              	.LVL37:
+ 119:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 389              		.loc 1 119 5 is_stmt 1 view .LVU109
+ 119:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 390              		.loc 1 119 12 is_stmt 0 view .LVU110
+ 391 003c 0024     		movs	r4, #0
+ 392              	.LVL38:
+ 119:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 393              		.loc 1 119 12 view .LVU111
+ 394 003e F6E7     		b	.L20
+ 395              		.cfi_endproc
+ 396              	.LFE4:
+ 398              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__destroy,"ax",%progbits
+ 399              		.align	1
+ 400              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__destroy
+ 401              		.syntax unified
+ 402              		.thumb
+ 403              		.thumb_func
+ 404              		.fpu fpv4-sp-d16
+ 406              	robotic_arm_interfaces__msg__PositionRoboticArm__destroy:
+ 407              	.LVL39:
+ 408              	.LFB5:
+ 123:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 124:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** void
+ 125:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__destroy(robotic_arm_interfaces__msg__PositionRobot
+ 126:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+ 409              		.loc 1 126 1 is_stmt 1 view -0
+ 410              		.cfi_startproc
+ 411              		@ args = 0, pretend = 0, frame = 24
+ 412              		@ frame_needed = 0, uses_anonymous_args = 0
+ 413              		.loc 1 126 1 is_stmt 0 view .LVU113
+ 414 0000 10B5     		push	{r4, lr}
+ 415              	.LCFI4:
+ 416              		.cfi_def_cfa_offset 8
+ 417              		.cfi_offset 4, -8
+ 418              		.cfi_offset 14, -4
+ 419 0002 86B0     		sub	sp, sp, #24
+ 420              	.LCFI5:
+ 421              		.cfi_def_cfa_offset 32
+ 422 0004 0446     		mov	r4, r0
+ 127:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   rcutils_allocator_t allocator = rcutils_get_default_allocator();
+ 423              		.loc 1 127 3 is_stmt 1 view .LVU114
+ 424              		.loc 1 127 35 is_stmt 0 view .LVU115
+ 425 0006 01A8     		add	r0, sp, #4
+ 426              	.LVL40:
+ 427              		.loc 1 127 35 view .LVU116
+ 428 0008 FFF7FEFF 		bl	rcutils_get_default_allocator
+ARM GAS  /tmp/ccP65YDS.s 			page 11
+
+
+ 429              	.LVL41:
+ 128:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (msg) {
+ 430              		.loc 1 128 3 is_stmt 1 view .LVU117
+ 129:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     robotic_arm_interfaces__msg__PositionRoboticArm__fini(msg);
+ 130:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 131:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   allocator.deallocate(msg, allocator.state);
+ 431              		.loc 1 131 3 view .LVU118
+ 432 000c 0599     		ldr	r1, [sp, #20]
+ 433 000e 2046     		mov	r0, r4
+ 434 0010 029B     		ldr	r3, [sp, #8]
+ 435 0012 9847     		blx	r3
+ 436              	.LVL42:
+ 132:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+ 437              		.loc 1 132 1 is_stmt 0 view .LVU119
+ 438 0014 06B0     		add	sp, sp, #24
+ 439              	.LCFI6:
+ 440              		.cfi_def_cfa_offset 8
+ 441              		@ sp needed
+ 442 0016 10BD     		pop	{r4, pc}
+ 443              		.loc 1 132 1 view .LVU120
+ 444              		.cfi_endproc
+ 445              	.LFE5:
+ 447              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__init,"ax",%progbits
+ 448              		.align	1
+ 449              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__init
+ 450              		.syntax unified
+ 451              		.thumb
+ 452              		.thumb_func
+ 453              		.fpu fpv4-sp-d16
+ 455              	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__init:
+ 456              	.LVL43:
+ 457              	.LFB6:
+ 133:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 134:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 135:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** bool
+ 136:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__init(robotic_arm_interfaces__msg__Positi
+ 137:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+ 458              		.loc 1 137 1 is_stmt 1 view -0
+ 459              		.cfi_startproc
+ 460              		@ args = 0, pretend = 0, frame = 24
+ 461              		@ frame_needed = 0, uses_anonymous_args = 0
+ 138:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!array) {
+ 462              		.loc 1 138 3 view .LVU122
+ 463              		.loc 1 138 6 is_stmt 0 view .LVU123
+ 464 0000 0028     		cmp	r0, #0
+ 465 0002 32D0     		beq	.L34
+ 137:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!array) {
+ 466              		.loc 1 137 1 view .LVU124
+ 467 0004 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
+ 468              	.LCFI7:
+ 469              		.cfi_def_cfa_offset 24
+ 470              		.cfi_offset 4, -24
+ 471              		.cfi_offset 5, -20
+ 472              		.cfi_offset 6, -16
+ 473              		.cfi_offset 7, -12
+ 474              		.cfi_offset 8, -8
+ 475              		.cfi_offset 14, -4
+ARM GAS  /tmp/ccP65YDS.s 			page 12
+
+
+ 476 0008 86B0     		sub	sp, sp, #24
+ 477              	.LCFI8:
+ 478              		.cfi_def_cfa_offset 48
+ 479 000a 0D46     		mov	r5, r1
+ 480 000c 0746     		mov	r7, r0
+ 139:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+ 140:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 141:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   rcutils_allocator_t allocator = rcutils_get_default_allocator();
+ 481              		.loc 1 141 3 is_stmt 1 view .LVU125
+ 482              		.loc 1 141 35 is_stmt 0 view .LVU126
+ 483 000e 01A8     		add	r0, sp, #4
+ 484              	.LVL44:
+ 485              		.loc 1 141 35 view .LVU127
+ 486 0010 FFF7FEFF 		bl	rcutils_get_default_allocator
+ 487              	.LVL45:
+ 142:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   robotic_arm_interfaces__msg__PositionRoboticArm * data = NULL;
+ 488              		.loc 1 142 3 is_stmt 1 view .LVU128
+ 143:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 144:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (size) {
+ 489              		.loc 1 144 3 view .LVU129
+ 490              		.loc 1 144 6 is_stmt 0 view .LVU130
+ 491 0014 0DB3     		cbz	r5, .L35
+ 492              	.LBB2:
+ 145:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     data = (robotic_arm_interfaces__msg__PositionRoboticArm *)allocator.zero_allocate(size, sizeof(
+ 493              		.loc 1 145 5 is_stmt 1 view .LVU131
+ 494              		.loc 1 145 63 is_stmt 0 view .LVU132
+ 495 0016 DDF81480 		ldr	r8, [sp, #20]
+ 496 001a 4246     		mov	r2, r8
+ 497 001c 1C21     		movs	r1, #28
+ 498 001e 2846     		mov	r0, r5
+ 499 0020 049B     		ldr	r3, [sp, #16]
+ 500 0022 9847     		blx	r3
+ 501              	.LVL46:
+ 146:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     if (!data) {
+ 502              		.loc 1 146 5 is_stmt 1 view .LVU133
+ 503              		.loc 1 146 8 is_stmt 0 view .LVU134
+ 504 0024 0646     		mov	r6, r0
+ 505 0026 10B3     		cbz	r0, .L36
+ 147:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       return false;
+ 148:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     }
+ 149:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     // initialize all array elements
+ 150:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     size_t i;
+ 151:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     for (i = 0; i < size; ++i) {
+ 506              		.loc 1 151 12 view .LVU135
+ 507 0028 0024     		movs	r4, #0
+ 508 002a 00E0     		b	.L29
+ 509              	.LVL47:
+ 510              	.L41:
+ 511              		.loc 1 151 27 is_stmt 1 discriminator 2 view .LVU136
+ 512 002c 0134     		adds	r4, r4, #1
+ 513              	.LVL48:
+ 514              	.L29:
+ 515              		.loc 1 151 17 discriminator 1 view .LVU137
+ 516              		.loc 1 151 5 is_stmt 0 discriminator 1 view .LVU138
+ 517 002e AC42     		cmp	r4, r5
+ 518 0030 07D2     		bcs	.L30
+ 519              	.LBB3:
+ARM GAS  /tmp/ccP65YDS.s 			page 13
+
+
+ 152:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       bool success = robotic_arm_interfaces__msg__PositionRoboticArm__init(&data[i]);
+ 520              		.loc 1 152 7 is_stmt 1 view .LVU139
+ 521              		.loc 1 152 81 is_stmt 0 view .LVU140
+ 522 0032 C4EBC400 		rsb	r0, r4, r4, lsl #3
+ 523              		.loc 1 152 22 view .LVU141
+ 524 0036 06EB8000 		add	r0, r6, r0, lsl #2
+ 525 003a FFF7FEFF 		bl	robotic_arm_interfaces__msg__PositionRoboticArm__init
+ 526              	.LVL49:
+ 153:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       if (!success) {
+ 527              		.loc 1 153 7 is_stmt 1 view .LVU142
+ 528              		.loc 1 153 10 is_stmt 0 view .LVU143
+ 529 003e 0028     		cmp	r0, #0
+ 530 0040 F4D1     		bne	.L41
+ 531              	.LVL50:
+ 532              	.L30:
+ 533              		.loc 1 153 10 view .LVU144
+ 534              	.LBE3:
+ 154:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         break;
+ 155:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       }
+ 156:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     }
+ 157:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     if (i < size) {
+ 535              		.loc 1 157 5 is_stmt 1 view .LVU145
+ 536              		.loc 1 157 8 is_stmt 0 view .LVU146
+ 537 0042 AC42     		cmp	r4, r5
+ 538 0044 0AD2     		bcs	.L28
+ 539 0046 00E0     		b	.L32
+ 540              	.L33:
+ 158:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       // if initialization failed finalize the already initialized array elements
+ 159:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       for (; i > 0; --i) {
+ 160:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         robotic_arm_interfaces__msg__PositionRoboticArm__fini(&data[i - 1]);
+ 541              		.loc 1 160 9 is_stmt 1 discriminator 2 view .LVU147
+ 159:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         robotic_arm_interfaces__msg__PositionRoboticArm__fini(&data[i - 1]);
+ 542              		.loc 1 159 21 discriminator 2 view .LVU148
+ 543 0048 013C     		subs	r4, r4, #1
+ 544              	.LVL51:
+ 545              	.L32:
+ 159:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         robotic_arm_interfaces__msg__PositionRoboticArm__fini(&data[i - 1]);
+ 546              		.loc 1 159 14 discriminator 1 view .LVU149
+ 159:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         robotic_arm_interfaces__msg__PositionRoboticArm__fini(&data[i - 1]);
+ 547              		.loc 1 159 7 is_stmt 0 discriminator 1 view .LVU150
+ 548 004a 002C     		cmp	r4, #0
+ 549 004c FCD1     		bne	.L33
+ 161:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       }
+ 162:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       allocator.deallocate(data, allocator.state);
+ 550              		.loc 1 162 7 is_stmt 1 view .LVU151
+ 551 004e 4146     		mov	r1, r8
+ 552 0050 3046     		mov	r0, r6
+ 553 0052 029B     		ldr	r3, [sp, #8]
+ 554 0054 9847     		blx	r3
+ 555              	.LVL52:
+ 163:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       return false;
+ 556              		.loc 1 163 7 view .LVU152
+ 557              		.loc 1 163 14 is_stmt 0 view .LVU153
+ 558 0056 0020     		movs	r0, #0
+ 559 0058 04E0     		b	.L27
+ 560              	.LVL53:
+ 561              	.L35:
+ARM GAS  /tmp/ccP65YDS.s 			page 14
+
+
+ 562              		.loc 1 163 14 view .LVU154
+ 563              	.LBE2:
+ 142:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 564              		.loc 1 142 53 view .LVU155
+ 565 005a 0026     		movs	r6, #0
+ 566              	.LVL54:
+ 567              	.L28:
+ 164:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     }
+ 165:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 166:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   array->data = data;
+ 568              		.loc 1 166 3 is_stmt 1 view .LVU156
+ 569              		.loc 1 166 15 is_stmt 0 view .LVU157
+ 570 005c 3E60     		str	r6, [r7]
+ 167:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   array->size = size;
+ 571              		.loc 1 167 3 is_stmt 1 view .LVU158
+ 572              		.loc 1 167 15 is_stmt 0 view .LVU159
+ 573 005e 7D60     		str	r5, [r7, #4]
+ 168:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   array->capacity = size;
+ 574              		.loc 1 168 3 is_stmt 1 view .LVU160
+ 575              		.loc 1 168 19 is_stmt 0 view .LVU161
+ 576 0060 BD60     		str	r5, [r7, #8]
+ 169:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   return true;
+ 577              		.loc 1 169 3 is_stmt 1 view .LVU162
+ 578              		.loc 1 169 10 is_stmt 0 view .LVU163
+ 579 0062 0120     		movs	r0, #1
+ 580              	.L27:
+ 170:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+ 581              		.loc 1 170 1 view .LVU164
+ 582 0064 06B0     		add	sp, sp, #24
+ 583              	.LCFI9:
+ 584              		.cfi_def_cfa_offset 24
+ 585              		@ sp needed
+ 586 0066 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
+ 587              	.LVL55:
+ 588              	.L34:
+ 589              	.LCFI10:
+ 590              		.cfi_def_cfa_offset 0
+ 591              		.cfi_restore 4
+ 592              		.cfi_restore 5
+ 593              		.cfi_restore 6
+ 594              		.cfi_restore 7
+ 595              		.cfi_restore 8
+ 596              		.cfi_restore 14
+ 139:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 597              		.loc 1 139 12 view .LVU165
+ 598 006a 0020     		movs	r0, #0
+ 599              	.LVL56:
+ 600              		.loc 1 170 1 view .LVU166
+ 601 006c 7047     		bx	lr
+ 602              	.LVL57:
+ 603              	.L36:
+ 604              	.LCFI11:
+ 605              		.cfi_def_cfa_offset 48
+ 606              		.cfi_offset 4, -24
+ 607              		.cfi_offset 5, -20
+ 608              		.cfi_offset 6, -16
+ 609              		.cfi_offset 7, -12
+ARM GAS  /tmp/ccP65YDS.s 			page 15
+
+
+ 610              		.cfi_offset 8, -8
+ 611              		.cfi_offset 14, -4
+ 612              	.LBB4:
+ 147:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     }
+ 613              		.loc 1 147 14 view .LVU167
+ 614 006e 0020     		movs	r0, #0
+ 615              	.LVL58:
+ 147:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     }
+ 616              		.loc 1 147 14 view .LVU168
+ 617 0070 F8E7     		b	.L27
+ 618              	.LBE4:
+ 619              		.cfi_endproc
+ 620              	.LFE6:
+ 622              		.section	.rodata.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini.str1.4,"aMS",%pro
+ 623              		.align	2
+ 624              	.LC0:
+ 625 0000 61727261 		.ascii	"array->capacity > 0\000"
+ 625      792D3E63 
+ 625      61706163 
+ 625      69747920 
+ 625      3E203000 
+ 626              		.align	2
+ 627              	.LC1:
+ 628 0014 436F7265 		.ascii	"Core/Src/robotic_arm_interfaces/msg/position_roboti"
+ 628      2F537263 
+ 628      2F726F62 
+ 628      6F746963 
+ 628      5F61726D 
+ 629 0047 635F6172 		.ascii	"c_arm__functions.c\000"
+ 629      6D5F5F66 
+ 629      756E6374 
+ 629      696F6E73 
+ 629      2E6300
+ 630 005a 0000     		.align	2
+ 631              	.LC2:
+ 632 005c 30203D3D 		.ascii	"0 == array->size\000"
+ 632      20617272 
+ 632      61792D3E 
+ 632      73697A65 
+ 632      00
+ 633 006d 000000   		.align	2
+ 634              	.LC3:
+ 635 0070 30203D3D 		.ascii	"0 == array->capacity\000"
+ 635      20617272 
+ 635      61792D3E 
+ 635      63617061 
+ 635      63697479 
+ 636              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini,"ax",%progbits
+ 637              		.align	1
+ 638              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini
+ 639              		.syntax unified
+ 640              		.thumb
+ 641              		.thumb_func
+ 642              		.fpu fpv4-sp-d16
+ 644              	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini:
+ 645              	.LVL59:
+ 646              	.LFB7:
+ARM GAS  /tmp/ccP65YDS.s 			page 16
+
+
+ 171:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 172:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** void
+ 173:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini(robotic_arm_interfaces__msg__Positi
+ 174:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+ 647              		.loc 1 174 1 is_stmt 1 view -0
+ 648              		.cfi_startproc
+ 649              		@ args = 0, pretend = 0, frame = 24
+ 650              		@ frame_needed = 0, uses_anonymous_args = 0
+ 175:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!array) {
+ 651              		.loc 1 175 3 view .LVU170
+ 652              		.loc 1 175 6 is_stmt 0 view .LVU171
+ 653 0000 0028     		cmp	r0, #0
+ 654 0002 2ED0     		beq	.L52
+ 174:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!array) {
+ 655              		.loc 1 174 1 view .LVU172
+ 656 0004 10B5     		push	{r4, lr}
+ 657              	.LCFI12:
+ 658              		.cfi_def_cfa_offset 8
+ 659              		.cfi_offset 4, -8
+ 660              		.cfi_offset 14, -4
+ 661 0006 86B0     		sub	sp, sp, #24
+ 662              	.LCFI13:
+ 663              		.cfi_def_cfa_offset 32
+ 664 0008 0446     		mov	r4, r0
+ 176:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return;
+ 177:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 178:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   rcutils_allocator_t allocator = rcutils_get_default_allocator();
+ 665              		.loc 1 178 3 is_stmt 1 view .LVU173
+ 666              		.loc 1 178 35 is_stmt 0 view .LVU174
+ 667 000a 01A8     		add	r0, sp, #4
+ 668              	.LVL60:
+ 669              		.loc 1 178 35 view .LVU175
+ 670 000c FFF7FEFF 		bl	rcutils_get_default_allocator
+ 671              	.LVL61:
+ 179:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 180:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (array->data) {
+ 672              		.loc 1 180 3 is_stmt 1 view .LVU176
+ 673              		.loc 1 180 12 is_stmt 0 view .LVU177
+ 674 0010 2068     		ldr	r0, [r4]
+ 675              		.loc 1 180 6 view .LVU178
+ 676 0012 A8B1     		cbz	r0, .L45
+ 181:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     // ensure that data and capacity values are consistent
+ 182:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     assert(array->capacity > 0);
+ 677              		.loc 1 182 5 is_stmt 1 view .LVU179
+ 678 0014 A268     		ldr	r2, [r4, #8]
+ 679 0016 0AB1     		cbz	r2, .L55
+ 680              	.LBB5:
+ 183:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     // finalize all array elements
+ 184:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     for (size_t i = 0; i < array->capacity; ++i) {
+ 681              		.loc 1 184 17 is_stmt 0 view .LVU180
+ 682 0018 0023     		movs	r3, #0
+ 683 001a 06E0     		b	.L46
+ 684              	.L55:
+ 685              	.LBE5:
+ 182:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     // finalize all array elements
+ 686              		.loc 1 182 5 discriminator 1 view .LVU181
+ 687 001c 114B     		ldr	r3, .L57
+ARM GAS  /tmp/ccP65YDS.s 			page 17
+
+
+ 688 001e 124A     		ldr	r2, .L57+4
+ 689 0020 B621     		movs	r1, #182
+ 690 0022 1248     		ldr	r0, .L57+8
+ 691 0024 FFF7FEFF 		bl	__assert_func
+ 692              	.LVL62:
+ 693              	.L47:
+ 694              	.LBB6:
+ 185:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       robotic_arm_interfaces__msg__PositionRoboticArm__fini(&array->data[i]);
+ 695              		.loc 1 185 7 is_stmt 1 discriminator 3 view .LVU182
+ 184:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       robotic_arm_interfaces__msg__PositionRoboticArm__fini(&array->data[i]);
+ 696              		.loc 1 184 45 discriminator 3 view .LVU183
+ 697 0028 0133     		adds	r3, r3, #1
+ 698              	.LVL63:
+ 699              	.L46:
+ 184:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       robotic_arm_interfaces__msg__PositionRoboticArm__fini(&array->data[i]);
+ 700              		.loc 1 184 24 discriminator 1 view .LVU184
+ 184:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       robotic_arm_interfaces__msg__PositionRoboticArm__fini(&array->data[i]);
+ 701              		.loc 1 184 5 is_stmt 0 discriminator 1 view .LVU185
+ 702 002a 9A42     		cmp	r2, r3
+ 703 002c FCD8     		bhi	.L47
+ 704              	.LBE6:
+ 186:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     }
+ 187:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     allocator.deallocate(array->data, allocator.state);
+ 705              		.loc 1 187 5 is_stmt 1 view .LVU186
+ 706 002e 0599     		ldr	r1, [sp, #20]
+ 707 0030 029B     		ldr	r3, [sp, #8]
+ 708              	.LVL64:
+ 709              		.loc 1 187 5 is_stmt 0 view .LVU187
+ 710 0032 9847     		blx	r3
+ 711              	.LVL65:
+ 188:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     array->data = NULL;
+ 712              		.loc 1 188 5 is_stmt 1 view .LVU188
+ 713              		.loc 1 188 17 is_stmt 0 view .LVU189
+ 714 0034 0023     		movs	r3, #0
+ 715 0036 2360     		str	r3, [r4]
+ 189:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     array->size = 0;
+ 716              		.loc 1 189 5 is_stmt 1 view .LVU190
+ 717              		.loc 1 189 17 is_stmt 0 view .LVU191
+ 718 0038 6360     		str	r3, [r4, #4]
+ 190:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     array->capacity = 0;
+ 719              		.loc 1 190 5 is_stmt 1 view .LVU192
+ 720              		.loc 1 190 21 is_stmt 0 view .LVU193
+ 721 003a A360     		str	r3, [r4, #8]
+ 722              	.L42:
+ 191:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   } else {
+ 192:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     // ensure that data, size, and capacity values are consistent
+ 193:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     assert(0 == array->size);
+ 194:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     assert(0 == array->capacity);
+ 195:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 196:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+ 723              		.loc 1 196 1 view .LVU194
+ 724 003c 06B0     		add	sp, sp, #24
+ 725              	.LCFI14:
+ 726              		.cfi_remember_state
+ 727              		.cfi_def_cfa_offset 8
+ 728              		@ sp needed
+ 729 003e 10BD     		pop	{r4, pc}
+ARM GAS  /tmp/ccP65YDS.s 			page 18
+
+
+ 730              	.LVL66:
+ 731              	.L45:
+ 732              	.LCFI15:
+ 733              		.cfi_restore_state
+ 193:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     assert(0 == array->capacity);
+ 734              		.loc 1 193 5 is_stmt 1 view .LVU195
+ 735 0040 6368     		ldr	r3, [r4, #4]
+ 736 0042 43B9     		cbnz	r3, .L56
+ 194:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 737              		.loc 1 194 5 view .LVU196
+ 738 0044 A368     		ldr	r3, [r4, #8]
+ 739 0046 002B     		cmp	r3, #0
+ 740 0048 F8D0     		beq	.L42
+ 194:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 741              		.loc 1 194 5 is_stmt 0 discriminator 1 view .LVU197
+ 742 004a 094B     		ldr	r3, .L57+12
+ 743 004c 064A     		ldr	r2, .L57+4
+ 744 004e C221     		movs	r1, #194
+ 745 0050 0648     		ldr	r0, .L57+8
+ 746 0052 FFF7FEFF 		bl	__assert_func
+ 747              	.LVL67:
+ 748              	.L56:
+ 193:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     assert(0 == array->capacity);
+ 749              		.loc 1 193 5 discriminator 1 view .LVU198
+ 750 0056 074B     		ldr	r3, .L57+16
+ 751 0058 034A     		ldr	r2, .L57+4
+ 752 005a C121     		movs	r1, #193
+ 753 005c 0348     		ldr	r0, .L57+8
+ 754 005e FFF7FEFF 		bl	__assert_func
+ 755              	.LVL68:
+ 756              	.L52:
+ 757              	.LCFI16:
+ 758              		.cfi_def_cfa_offset 0
+ 759              		.cfi_restore 4
+ 760              		.cfi_restore 14
+ 193:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     assert(0 == array->capacity);
+ 761              		.loc 1 193 5 discriminator 1 view .LVU199
+ 762 0062 7047     		bx	lr
+ 763              	.L58:
+ 764              		.align	2
+ 765              	.L57:
+ 766 0064 00000000 		.word	.LC0
+ 767 0068 00000000 		.word	.LANCHOR0
+ 768 006c 14000000 		.word	.LC1
+ 769 0070 70000000 		.word	.LC3
+ 770 0074 5C000000 		.word	.LC2
+ 771              		.cfi_endproc
+ 772              	.LFE7:
+ 774              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__create,"ax",%progbits
+ 775              		.align	1
+ 776              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__create
+ 777              		.syntax unified
+ 778              		.thumb
+ 779              		.thumb_func
+ 780              		.fpu fpv4-sp-d16
+ 782              	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__create:
+ 783              	.LVL69:
+ARM GAS  /tmp/ccP65YDS.s 			page 19
+
+
+ 784              	.LFB8:
+ 197:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 198:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__Sequence *
+ 199:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__create(size_t size)
+ 200:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+ 785              		.loc 1 200 1 is_stmt 1 view -0
+ 786              		.cfi_startproc
+ 787              		@ args = 0, pretend = 0, frame = 24
+ 788              		@ frame_needed = 0, uses_anonymous_args = 0
+ 789              		.loc 1 200 1 is_stmt 0 view .LVU201
+ 790 0000 70B5     		push	{r4, r5, r6, lr}
+ 791              	.LCFI17:
+ 792              		.cfi_def_cfa_offset 16
+ 793              		.cfi_offset 4, -16
+ 794              		.cfi_offset 5, -12
+ 795              		.cfi_offset 6, -8
+ 796              		.cfi_offset 14, -4
+ 797 0002 86B0     		sub	sp, sp, #24
+ 798              	.LCFI18:
+ 799              		.cfi_def_cfa_offset 40
+ 800 0004 0446     		mov	r4, r0
+ 201:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   rcutils_allocator_t allocator = rcutils_get_default_allocator();
+ 801              		.loc 1 201 3 is_stmt 1 view .LVU202
+ 802              		.loc 1 201 35 is_stmt 0 view .LVU203
+ 803 0006 01A8     		add	r0, sp, #4
+ 804              	.LVL70:
+ 805              		.loc 1 201 35 view .LVU204
+ 806 0008 FFF7FEFF 		bl	rcutils_get_default_allocator
+ 807              	.LVL71:
+ 202:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   robotic_arm_interfaces__msg__PositionRoboticArm__Sequence * array = (robotic_arm_interfaces__msg_
+ 808              		.loc 1 202 3 is_stmt 1 view .LVU205
+ 809              		.loc 1 202 132 is_stmt 0 view .LVU206
+ 810 000c 059E     		ldr	r6, [sp, #20]
+ 811 000e 3146     		mov	r1, r6
+ 812 0010 0C20     		movs	r0, #12
+ 813 0012 019B     		ldr	r3, [sp, #4]
+ 814 0014 9847     		blx	r3
+ 815              	.LVL72:
+ 203:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!array) {
+ 816              		.loc 1 203 3 is_stmt 1 view .LVU207
+ 817              		.loc 1 203 6 is_stmt 0 view .LVU208
+ 818 0016 0546     		mov	r5, r0
+ 819 0018 18B1     		cbz	r0, .L59
+ 204:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return NULL;
+ 205:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 206:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   bool success = robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__init(array, size);
+ 820              		.loc 1 206 3 is_stmt 1 view .LVU209
+ 821              		.loc 1 206 18 is_stmt 0 view .LVU210
+ 822 001a 2146     		mov	r1, r4
+ 823 001c FFF7FEFF 		bl	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__init
+ 824              	.LVL73:
+ 207:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!success) {
+ 825              		.loc 1 207 3 is_stmt 1 view .LVU211
+ 826              		.loc 1 207 6 is_stmt 0 view .LVU212
+ 827 0020 10B1     		cbz	r0, .L62
+ 828              	.LVL74:
+ 829              	.L59:
+ARM GAS  /tmp/ccP65YDS.s 			page 20
+
+
+ 208:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     allocator.deallocate(array, allocator.state);
+ 209:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return NULL;
+ 210:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 211:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   return array;
+ 212:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+ 830              		.loc 1 212 1 view .LVU213
+ 831 0022 2846     		mov	r0, r5
+ 832 0024 06B0     		add	sp, sp, #24
+ 833              	.LCFI19:
+ 834              		.cfi_remember_state
+ 835              		.cfi_def_cfa_offset 16
+ 836              		@ sp needed
+ 837 0026 70BD     		pop	{r4, r5, r6, pc}
+ 838              	.LVL75:
+ 839              	.L62:
+ 840              	.LCFI20:
+ 841              		.cfi_restore_state
+ 208:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     allocator.deallocate(array, allocator.state);
+ 842              		.loc 1 208 5 is_stmt 1 view .LVU214
+ 843 0028 3146     		mov	r1, r6
+ 844 002a 2846     		mov	r0, r5
+ 845              	.LVL76:
+ 208:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     allocator.deallocate(array, allocator.state);
+ 846              		.loc 1 208 5 is_stmt 0 view .LVU215
+ 847 002c 029B     		ldr	r3, [sp, #8]
+ 848 002e 9847     		blx	r3
+ 849              	.LVL77:
+ 209:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 850              		.loc 1 209 5 is_stmt 1 view .LVU216
+ 209:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 851              		.loc 1 209 12 is_stmt 0 view .LVU217
+ 852 0030 0025     		movs	r5, #0
+ 853              	.LVL78:
+ 209:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 854              		.loc 1 209 12 view .LVU218
+ 855 0032 F6E7     		b	.L59
+ 856              		.cfi_endproc
+ 857              	.LFE8:
+ 859              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__destroy,"ax",%progbits
+ 860              		.align	1
+ 861              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__destroy
+ 862              		.syntax unified
+ 863              		.thumb
+ 864              		.thumb_func
+ 865              		.fpu fpv4-sp-d16
+ 867              	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__destroy:
+ 868              	.LVL79:
+ 869              	.LFB9:
+ 213:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 214:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** void
+ 215:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__destroy(robotic_arm_interfaces__msg__Pos
+ 216:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+ 870              		.loc 1 216 1 is_stmt 1 view -0
+ 871              		.cfi_startproc
+ 872              		@ args = 0, pretend = 0, frame = 24
+ 873              		@ frame_needed = 0, uses_anonymous_args = 0
+ 874              		.loc 1 216 1 is_stmt 0 view .LVU220
+ARM GAS  /tmp/ccP65YDS.s 			page 21
+
+
+ 875 0000 10B5     		push	{r4, lr}
+ 876              	.LCFI21:
+ 877              		.cfi_def_cfa_offset 8
+ 878              		.cfi_offset 4, -8
+ 879              		.cfi_offset 14, -4
+ 880 0002 86B0     		sub	sp, sp, #24
+ 881              	.LCFI22:
+ 882              		.cfi_def_cfa_offset 32
+ 883 0004 0446     		mov	r4, r0
+ 217:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   rcutils_allocator_t allocator = rcutils_get_default_allocator();
+ 884              		.loc 1 217 3 is_stmt 1 view .LVU221
+ 885              		.loc 1 217 35 is_stmt 0 view .LVU222
+ 886 0006 01A8     		add	r0, sp, #4
+ 887              	.LVL80:
+ 888              		.loc 1 217 35 view .LVU223
+ 889 0008 FFF7FEFF 		bl	rcutils_get_default_allocator
+ 890              	.LVL81:
+ 218:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (array) {
+ 891              		.loc 1 218 3 is_stmt 1 view .LVU224
+ 892              		.loc 1 218 6 is_stmt 0 view .LVU225
+ 893 000c 14B1     		cbz	r4, .L64
+ 219:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini(array);
+ 894              		.loc 1 219 5 is_stmt 1 view .LVU226
+ 895 000e 2046     		mov	r0, r4
+ 896 0010 FFF7FEFF 		bl	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini
+ 897              	.LVL82:
+ 898              	.L64:
+ 220:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 221:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   allocator.deallocate(array, allocator.state);
+ 899              		.loc 1 221 3 view .LVU227
+ 900 0014 0599     		ldr	r1, [sp, #20]
+ 901 0016 2046     		mov	r0, r4
+ 902 0018 029B     		ldr	r3, [sp, #8]
+ 903 001a 9847     		blx	r3
+ 904              	.LVL83:
+ 222:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+ 905              		.loc 1 222 1 is_stmt 0 view .LVU228
+ 906 001c 06B0     		add	sp, sp, #24
+ 907              	.LCFI23:
+ 908              		.cfi_def_cfa_offset 8
+ 909              		@ sp needed
+ 910 001e 10BD     		pop	{r4, pc}
+ 911              		.loc 1 222 1 view .LVU229
+ 912              		.cfi_endproc
+ 913              	.LFE9:
+ 915              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__are_equal,"ax",%progbits
+ 916              		.align	1
+ 917              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__are_equal
+ 918              		.syntax unified
+ 919              		.thumb
+ 920              		.thumb_func
+ 921              		.fpu fpv4-sp-d16
+ 923              	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__are_equal:
+ 924              	.LVL84:
+ 925              	.LFB10:
+ 223:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 224:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** bool
+ARM GAS  /tmp/ccP65YDS.s 			page 22
+
+
+ 225:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__are_equal(const robotic_arm_interfaces__
+ 226:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+ 926              		.loc 1 226 1 is_stmt 1 view -0
+ 927              		.cfi_startproc
+ 928              		@ args = 0, pretend = 0, frame = 0
+ 929              		@ frame_needed = 0, uses_anonymous_args = 0
+ 930              		.loc 1 226 1 is_stmt 0 view .LVU231
+ 931 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
+ 932              	.LCFI24:
+ 933              		.cfi_def_cfa_offset 24
+ 934              		.cfi_offset 3, -24
+ 935              		.cfi_offset 4, -20
+ 936              		.cfi_offset 5, -16
+ 937              		.cfi_offset 6, -12
+ 938              		.cfi_offset 7, -8
+ 939              		.cfi_offset 14, -4
+ 227:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!lhs || !rhs) {
+ 940              		.loc 1 227 3 is_stmt 1 view .LVU232
+ 941              		.loc 1 227 6 is_stmt 0 view .LVU233
+ 942 0002 C8B1     		cbz	r0, .L70
+ 943 0004 0D46     		mov	r5, r1
+ 944 0006 0646     		mov	r6, r0
+ 945              		.loc 1 227 12 discriminator 1 view .LVU234
+ 946 0008 C1B1     		cbz	r1, .L71
+ 228:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+ 229:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 230:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (lhs->size != rhs->size) {
+ 947              		.loc 1 230 3 is_stmt 1 view .LVU235
+ 948              		.loc 1 230 10 is_stmt 0 view .LVU236
+ 949 000a 4768     		ldr	r7, [r0, #4]
+ 950              		.loc 1 230 23 view .LVU237
+ 951 000c 4B68     		ldr	r3, [r1, #4]
+ 952              		.loc 1 230 6 view .LVU238
+ 953 000e 9F42     		cmp	r7, r3
+ 954 0010 16D1     		bne	.L72
+ 955              	.LBB7:
+ 231:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+ 232:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 233:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   for (size_t i = 0; i < lhs->size; ++i) {
+ 956              		.loc 1 233 15 view .LVU239
+ 957 0012 0024     		movs	r4, #0
+ 958              	.LVL85:
+ 959              	.L68:
+ 960              		.loc 1 233 22 is_stmt 1 discriminator 1 view .LVU240
+ 961              		.loc 1 233 3 is_stmt 0 discriminator 1 view .LVU241
+ 962 0014 A742     		cmp	r7, r4
+ 963 0016 0DD9     		bls	.L74
+ 234:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     if (!robotic_arm_interfaces__msg__PositionRoboticArm__are_equal(&(lhs->data[i]), &(rhs->data[i]
+ 964              		.loc 1 234 5 is_stmt 1 view .LVU242
+ 965              		.loc 1 234 74 is_stmt 0 view .LVU243
+ 966 0018 3068     		ldr	r0, [r6]
+ 967              		.loc 1 234 80 view .LVU244
+ 968 001a C4EBC403 		rsb	r3, r4, r4, lsl #3
+ 969              		.loc 1 234 91 view .LVU245
+ 970 001e 2968     		ldr	r1, [r5]
+ 971              		.loc 1 234 10 view .LVU246
+ 972 0020 01EB8301 		add	r1, r1, r3, lsl #2
+ARM GAS  /tmp/ccP65YDS.s 			page 23
+
+
+ 973 0024 00EB8300 		add	r0, r0, r3, lsl #2
+ 974 0028 FFF7FEFF 		bl	robotic_arm_interfaces__msg__PositionRoboticArm__are_equal
+ 975              	.LVL86:
+ 976              		.loc 1 234 8 view .LVU247
+ 977 002c 0346     		mov	r3, r0
+ 978 002e 40B1     		cbz	r0, .L67
+ 233:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     if (!robotic_arm_interfaces__msg__PositionRoboticArm__are_equal(&(lhs->data[i]), &(rhs->data[i]
+ 979              		.loc 1 233 37 is_stmt 1 discriminator 2 view .LVU248
+ 980 0030 0134     		adds	r4, r4, #1
+ 981              	.LVL87:
+ 233:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     if (!robotic_arm_interfaces__msg__PositionRoboticArm__are_equal(&(lhs->data[i]), &(rhs->data[i]
+ 982              		.loc 1 233 37 is_stmt 0 discriminator 2 view .LVU249
+ 983 0032 EFE7     		b	.L68
+ 984              	.L74:
+ 233:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     if (!robotic_arm_interfaces__msg__PositionRoboticArm__are_equal(&(lhs->data[i]), &(rhs->data[i]
+ 985              		.loc 1 233 37 discriminator 2 view .LVU250
+ 986              	.LBE7:
+ 235:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       return false;
+ 236:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     }
+ 237:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 238:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   return true;
+ 987              		.loc 1 238 10 view .LVU251
+ 988 0034 0123     		movs	r3, #1
+ 989              	.LBB8:
+ 990 0036 04E0     		b	.L67
+ 991              	.LVL88:
+ 992              	.L70:
+ 993              		.loc 1 238 10 view .LVU252
+ 994              	.LBE8:
+ 228:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 995              		.loc 1 228 12 view .LVU253
+ 996 0038 0023     		movs	r3, #0
+ 997 003a 02E0     		b	.L67
+ 998              	.L71:
+ 228:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 999              		.loc 1 228 12 view .LVU254
+ 1000 003c 0023     		movs	r3, #0
+ 1001 003e 00E0     		b	.L67
+ 1002              	.L72:
+ 231:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 1003              		.loc 1 231 12 view .LVU255
+ 1004 0040 0023     		movs	r3, #0
+ 1005              	.LVL89:
+ 1006              	.L67:
+ 239:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+ 1007              		.loc 1 239 1 view .LVU256
+ 1008 0042 1846     		mov	r0, r3
+ 1009 0044 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+ 1010              		.cfi_endproc
+ 1011              	.LFE10:
+ 1013              		.section	.text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__copy,"ax",%progbits
+ 1014              		.align	1
+ 1015              		.global	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__copy
+ 1016              		.syntax unified
+ 1017              		.thumb
+ 1018              		.thumb_func
+ 1019              		.fpu fpv4-sp-d16
+ARM GAS  /tmp/ccP65YDS.s 			page 24
+
+
+ 1021              	robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__copy:
+ 1022              	.LVL90:
+ 1023              	.LFB11:
+ 240:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** 
+ 241:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** bool
+ 242:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__copy(
+ 243:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   const robotic_arm_interfaces__msg__PositionRoboticArm__Sequence * input,
+ 244:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   robotic_arm_interfaces__msg__PositionRoboticArm__Sequence * output)
+ 245:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** {
+ 1024              		.loc 1 245 1 is_stmt 1 view -0
+ 1025              		.cfi_startproc
+ 1026              		@ args = 0, pretend = 0, frame = 24
+ 1027              		@ frame_needed = 0, uses_anonymous_args = 0
+ 246:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!input || !output) {
+ 1028              		.loc 1 246 3 view .LVU258
+ 1029              		.loc 1 246 6 is_stmt 0 view .LVU259
+ 1030 0000 0028     		cmp	r0, #0
+ 1031 0002 47D0     		beq	.L85
+ 245:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (!input || !output) {
+ 1032              		.loc 1 245 1 discriminator 1 view .LVU260
+ 1033 0004 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
+ 1034              	.LCFI25:
+ 1035              		.cfi_def_cfa_offset 24
+ 1036              		.cfi_offset 4, -24
+ 1037              		.cfi_offset 5, -20
+ 1038              		.cfi_offset 6, -16
+ 1039              		.cfi_offset 7, -12
+ 1040              		.cfi_offset 8, -8
+ 1041              		.cfi_offset 14, -4
+ 1042 0008 86B0     		sub	sp, sp, #24
+ 1043              	.LCFI26:
+ 1044              		.cfi_def_cfa_offset 48
+ 1045 000a 0E46     		mov	r6, r1
+ 1046 000c 0546     		mov	r5, r0
+ 1047              		.loc 1 246 14 discriminator 1 view .LVU261
+ 1048 000e 0029     		cmp	r1, #0
+ 1049 0010 43D0     		beq	.L86
+ 247:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     return false;
+ 248:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 249:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   if (output->capacity < input->size) {
+ 1050              		.loc 1 249 3 is_stmt 1 view .LVU262
+ 1051              		.loc 1 249 13 is_stmt 0 view .LVU263
+ 1052 0012 8A68     		ldr	r2, [r1, #8]
+ 1053              		.loc 1 249 31 view .LVU264
+ 1054 0014 4368     		ldr	r3, [r0, #4]
+ 1055              		.loc 1 249 6 view .LVU265
+ 1056 0016 9A42     		cmp	r2, r3
+ 1057 0018 13D3     		bcc	.L91
+ 1058              	.LVL91:
+ 1059              	.L77:
+ 250:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     const size_t allocation_size =
+ 251:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       input->size * sizeof(robotic_arm_interfaces__msg__PositionRoboticArm);
+ 252:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     rcutils_allocator_t allocator = rcutils_get_default_allocator();
+ 253:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     robotic_arm_interfaces__msg__PositionRoboticArm * data =
+ 254:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       (robotic_arm_interfaces__msg__PositionRoboticArm *)allocator.reallocate(
+ 255:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       output->data, allocation_size, allocator.state);
+ 256:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     if (!data) {
+ARM GAS  /tmp/ccP65YDS.s 			page 25
+
+
+ 257:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       return false;
+ 258:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     }
+ 259:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     // If reallocation succeeded, memory may or may not have been moved
+ 260:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     // to fulfill the allocation request, invalidating output->data.
+ 261:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     output->data = data;
+ 262:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     for (size_t i = output->capacity; i < input->size; ++i) {
+ 263:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       if (!robotic_arm_interfaces__msg__PositionRoboticArm__init(&output->data[i])) {
+ 264:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         // If initialization of any new item fails, roll back
+ 265:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         // all previously initialized items. Existing items
+ 266:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         // in output are to be left unmodified.
+ 267:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         for (; i-- > output->capacity; ) {
+ 268:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****           robotic_arm_interfaces__msg__PositionRoboticArm__fini(&output->data[i]);
+ 269:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         }
+ 270:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         return false;
+ 271:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       }
+ 272:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     }
+ 273:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     output->capacity = input->size;
+ 274:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 275:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   output->size = input->size;
+ 1060              		.loc 1 275 3 is_stmt 1 view .LVU266
+ 1061              		.loc 1 275 23 is_stmt 0 view .LVU267
+ 1062 001a 6B68     		ldr	r3, [r5, #4]
+ 1063              		.loc 1 275 16 view .LVU268
+ 1064 001c 7360     		str	r3, [r6, #4]
+ 276:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   for (size_t i = 0; i < input->size; ++i) {
+ 1065              		.loc 1 276 3 is_stmt 1 view .LVU269
+ 1066              	.LBB9:
+ 1067              		.loc 1 276 8 view .LVU270
+ 1068              	.LVL92:
+ 1069              		.loc 1 276 15 is_stmt 0 view .LVU271
+ 1070 001e 0024     		movs	r4, #0
+ 1071              	.LVL93:
+ 1072              	.L83:
+ 1073              		.loc 1 276 22 is_stmt 1 discriminator 1 view .LVU272
+ 1074              		.loc 1 276 31 is_stmt 0 discriminator 1 view .LVU273
+ 1075 0020 6B68     		ldr	r3, [r5, #4]
+ 1076              		.loc 1 276 3 discriminator 1 view .LVU274
+ 1077 0022 A342     		cmp	r3, r4
+ 1078 0024 31D9     		bls	.L92
+ 277:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     if (!robotic_arm_interfaces__msg__PositionRoboticArm__copy(
+ 1079              		.loc 1 277 5 is_stmt 1 view .LVU275
+ 278:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         &(input->data[i]), &(output->data[i])))
+ 1080              		.loc 1 278 16 is_stmt 0 view .LVU276
+ 1081 0026 2868     		ldr	r0, [r5]
+ 1082              		.loc 1 278 22 view .LVU277
+ 1083 0028 C4EBC403 		rsb	r3, r4, r4, lsl #3
+ 1084              		.loc 1 278 36 view .LVU278
+ 1085 002c 3168     		ldr	r1, [r6]
+ 277:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     if (!robotic_arm_interfaces__msg__PositionRoboticArm__copy(
+ 1086              		.loc 1 277 10 view .LVU279
+ 1087 002e 01EB8301 		add	r1, r1, r3, lsl #2
+ 1088 0032 00EB8300 		add	r0, r0, r3, lsl #2
+ 1089 0036 FFF7FEFF 		bl	robotic_arm_interfaces__msg__PositionRoboticArm__copy
+ 1090              	.LVL94:
+ 277:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     if (!robotic_arm_interfaces__msg__PositionRoboticArm__copy(
+ 1091              		.loc 1 277 8 view .LVU280
+ 1092 003a 0346     		mov	r3, r0
+ARM GAS  /tmp/ccP65YDS.s 			page 26
+
+
+ 1093 003c 30B3     		cbz	r0, .L76
+ 276:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   for (size_t i = 0; i < input->size; ++i) {
+ 1094              		.loc 1 276 39 is_stmt 1 discriminator 2 view .LVU281
+ 1095 003e 0134     		adds	r4, r4, #1
+ 1096              	.LVL95:
+ 276:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   for (size_t i = 0; i < input->size; ++i) {
+ 1097              		.loc 1 276 39 is_stmt 0 discriminator 2 view .LVU282
+ 1098 0040 EEE7     		b	.L83
+ 1099              	.LVL96:
+ 1100              	.L91:
+ 276:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   for (size_t i = 0; i < input->size; ++i) {
+ 1101              		.loc 1 276 39 discriminator 2 view .LVU283
+ 1102              	.LBE9:
+ 1103              	.LBB10:
+ 250:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       input->size * sizeof(robotic_arm_interfaces__msg__PositionRoboticArm);
+ 1104              		.loc 1 250 5 is_stmt 1 view .LVU284
+ 250:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       input->size * sizeof(robotic_arm_interfaces__msg__PositionRoboticArm);
+ 1105              		.loc 1 250 18 is_stmt 0 view .LVU285
+ 1106 0042 C3EBC303 		rsb	r3, r3, r3, lsl #3
+ 1107 0046 9C00     		lsls	r4, r3, #2
+ 1108              	.LVL97:
+ 252:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     robotic_arm_interfaces__msg__PositionRoboticArm * data =
+ 1109              		.loc 1 252 5 is_stmt 1 view .LVU286
+ 252:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     robotic_arm_interfaces__msg__PositionRoboticArm * data =
+ 1110              		.loc 1 252 37 is_stmt 0 view .LVU287
+ 1111 0048 01A8     		add	r0, sp, #4
+ 1112              	.LVL98:
+ 252:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     robotic_arm_interfaces__msg__PositionRoboticArm * data =
+ 1113              		.loc 1 252 37 view .LVU288
+ 1114 004a FFF7FEFF 		bl	rcutils_get_default_allocator
+ 1115              	.LVL99:
+ 253:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       (robotic_arm_interfaces__msg__PositionRoboticArm *)allocator.reallocate(
+ 1116              		.loc 1 253 5 is_stmt 1 view .LVU289
+ 254:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       output->data, allocation_size, allocator.state);
+ 1117              		.loc 1 254 58 is_stmt 0 view .LVU290
+ 1118 004e 059A     		ldr	r2, [sp, #20]
+ 1119 0050 2146     		mov	r1, r4
+ 1120 0052 3068     		ldr	r0, [r6]
+ 1121 0054 039B     		ldr	r3, [sp, #12]
+ 1122 0056 9847     		blx	r3
+ 1123              	.LVL100:
+ 256:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       return false;
+ 1124              		.loc 1 256 5 is_stmt 1 view .LVU291
+ 256:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       return false;
+ 1125              		.loc 1 256 8 is_stmt 0 view .LVU292
+ 1126 0058 8046     		mov	r8, r0
+ 1127 005a 90B1     		cbz	r0, .L78
+ 261:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     for (size_t i = output->capacity; i < input->size; ++i) {
+ 1128              		.loc 1 261 5 is_stmt 1 view .LVU293
+ 261:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     for (size_t i = output->capacity; i < input->size; ++i) {
+ 1129              		.loc 1 261 18 is_stmt 0 view .LVU294
+ 1130 005c 3060     		str	r0, [r6]
+ 262:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       if (!robotic_arm_interfaces__msg__PositionRoboticArm__init(&output->data[i])) {
+ 1131              		.loc 1 262 5 is_stmt 1 view .LVU295
+ 1132              	.LBB11:
+ 262:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       if (!robotic_arm_interfaces__msg__PositionRoboticArm__init(&output->data[i])) {
+ 1133              		.loc 1 262 10 view .LVU296
+ARM GAS  /tmp/ccP65YDS.s 			page 27
+
+
+ 262:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       if (!robotic_arm_interfaces__msg__PositionRoboticArm__init(&output->data[i])) {
+ 1134              		.loc 1 262 17 is_stmt 0 view .LVU297
+ 1135 005e B768     		ldr	r7, [r6, #8]
+ 1136              	.LVL101:
+ 262:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       if (!robotic_arm_interfaces__msg__PositionRoboticArm__init(&output->data[i])) {
+ 1137              		.loc 1 262 17 view .LVU298
+ 1138 0060 3C46     		mov	r4, r7
+ 1139              	.LVL102:
+ 1140              	.L79:
+ 262:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       if (!robotic_arm_interfaces__msg__PositionRoboticArm__init(&output->data[i])) {
+ 1141              		.loc 1 262 39 is_stmt 1 discriminator 1 view .LVU299
+ 262:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       if (!robotic_arm_interfaces__msg__PositionRoboticArm__init(&output->data[i])) {
+ 1142              		.loc 1 262 48 is_stmt 0 discriminator 1 view .LVU300
+ 1143 0062 6B68     		ldr	r3, [r5, #4]
+ 262:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       if (!robotic_arm_interfaces__msg__PositionRoboticArm__init(&output->data[i])) {
+ 1144              		.loc 1 262 5 discriminator 1 view .LVU301
+ 1145 0064 A342     		cmp	r3, r4
+ 1146 0066 0ED9     		bls	.L93
+ 263:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         // If initialization of any new item fails, roll back
+ 1147              		.loc 1 263 7 is_stmt 1 view .LVU302
+ 263:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         // If initialization of any new item fails, roll back
+ 1148              		.loc 1 263 79 is_stmt 0 view .LVU303
+ 1149 0068 C4EBC400 		rsb	r0, r4, r4, lsl #3
+ 263:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         // If initialization of any new item fails, roll back
+ 1150              		.loc 1 263 12 view .LVU304
+ 1151 006c 08EB8000 		add	r0, r8, r0, lsl #2
+ 1152 0070 FFF7FEFF 		bl	robotic_arm_interfaces__msg__PositionRoboticArm__init
+ 1153              	.LVL103:
+ 263:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****         // If initialization of any new item fails, roll back
+ 1154              		.loc 1 263 10 view .LVU305
+ 1155 0074 08B1     		cbz	r0, .L81
+ 262:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       if (!robotic_arm_interfaces__msg__PositionRoboticArm__init(&output->data[i])) {
+ 1156              		.loc 1 262 56 is_stmt 1 discriminator 2 view .LVU306
+ 1157 0076 0134     		adds	r4, r4, #1
+ 1158              	.LVL104:
+ 262:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       if (!robotic_arm_interfaces__msg__PositionRoboticArm__init(&output->data[i])) {
+ 1159              		.loc 1 262 56 is_stmt 0 discriminator 2 view .LVU307
+ 1160 0078 F3E7     		b	.L79
+ 1161              	.LVL105:
+ 1162              	.L81:
+ 267:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****           robotic_arm_interfaces__msg__PositionRoboticArm__fini(&output->data[i]);
+ 1163              		.loc 1 267 16 is_stmt 1 view .LVU308
+ 267:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****           robotic_arm_interfaces__msg__PositionRoboticArm__fini(&output->data[i]);
+ 1164              		.loc 1 267 9 is_stmt 0 view .LVU309
+ 1165 007a BC42     		cmp	r4, r7
+ 1166 007c 04F1FF34 		add	r4, r4, #-1
+ 1167              	.LVL106:
+ 267:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****           robotic_arm_interfaces__msg__PositionRoboticArm__fini(&output->data[i]);
+ 1168              		.loc 1 267 9 view .LVU310
+ 1169 0080 FBD8     		bhi	.L81
+ 1170              	.LVL107:
+ 1171              	.L78:
+ 267:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****           robotic_arm_interfaces__msg__PositionRoboticArm__fini(&output->data[i]);
+ 1172              		.loc 1 267 9 view .LVU311
+ 1173              	.LBE11:
+ 257:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     }
+ 1174              		.loc 1 257 14 discriminator 1 view .LVU312
+ARM GAS  /tmp/ccP65YDS.s 			page 28
+
+
+ 1175 0082 0023     		movs	r3, #0
+ 1176 0084 02E0     		b	.L76
+ 1177              	.LVL108:
+ 1178              	.L93:
+ 273:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 1179              		.loc 1 273 5 is_stmt 1 view .LVU313
+ 273:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 1180              		.loc 1 273 22 is_stmt 0 view .LVU314
+ 1181 0086 B360     		str	r3, [r6, #8]
+ 1182 0088 C7E7     		b	.L77
+ 1183              	.LVL109:
+ 1184              	.L92:
+ 273:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 1185              		.loc 1 273 22 view .LVU315
+ 1186              	.LBE10:
+ 279:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     {
+ 280:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****       return false;
+ 281:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****     }
+ 282:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 283:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   return true;
+ 1187              		.loc 1 283 10 view .LVU316
+ 1188 008a 0123     		movs	r3, #1
+ 1189              	.LVL110:
+ 1190              	.L76:
+ 284:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c **** }
+ 1191              		.loc 1 284 1 view .LVU317
+ 1192 008c 1846     		mov	r0, r3
+ 1193 008e 06B0     		add	sp, sp, #24
+ 1194              	.LCFI27:
+ 1195              		.cfi_def_cfa_offset 24
+ 1196              		@ sp needed
+ 1197 0090 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
+ 1198              	.LVL111:
+ 1199              	.L85:
+ 1200              	.LCFI28:
+ 1201              		.cfi_def_cfa_offset 0
+ 1202              		.cfi_restore 4
+ 1203              		.cfi_restore 5
+ 1204              		.cfi_restore 6
+ 1205              		.cfi_restore 7
+ 1206              		.cfi_restore 8
+ 1207              		.cfi_restore 14
+ 247:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 1208              		.loc 1 247 12 view .LVU318
+ 1209 0094 0023     		movs	r3, #0
+ 1210              		.loc 1 284 1 view .LVU319
+ 1211 0096 1846     		mov	r0, r3
+ 1212              	.LVL112:
+ 1213              		.loc 1 284 1 view .LVU320
+ 1214 0098 7047     		bx	lr
+ 1215              	.LVL113:
+ 1216              	.L86:
+ 1217              	.LCFI29:
+ 1218              		.cfi_def_cfa_offset 48
+ 1219              		.cfi_offset 4, -24
+ 1220              		.cfi_offset 5, -20
+ 1221              		.cfi_offset 6, -16
+ARM GAS  /tmp/ccP65YDS.s 			page 29
+
+
+ 1222              		.cfi_offset 7, -12
+ 1223              		.cfi_offset 8, -8
+ 1224              		.cfi_offset 14, -4
+ 247:Core/Src/robotic_arm_interfaces/msg/position_robotic_arm__functions.c ****   }
+ 1225              		.loc 1 247 12 view .LVU321
+ 1226 009a 0023     		movs	r3, #0
+ 1227 009c F6E7     		b	.L76
+ 1228              		.cfi_endproc
+ 1229              	.LFE11:
+ 1231              		.section	.rodata.__func__.0,"a"
+ 1232              		.align	2
+ 1233              		.set	.LANCHOR0,. + 0
+ 1236              	__func__.0:
+ 1237 0000 726F626F 		.ascii	"robotic_arm_interfaces__msg__PositionRoboticArm__Se"
+ 1237      7469635F 
+ 1237      61726D5F 
+ 1237      696E7465 
+ 1237      72666163 
+ 1238 0033 7175656E 		.ascii	"quence__fini\000"
+ 1238      63655F5F 
+ 1238      66696E69 
+ 1238      00
+ 1239              		.text
+ 1240              	.Letext0:
+ 1241              		.file 2 "Core/Inc/robotic_arm_interfaces/msg/detail/position_robotic_arm__struct.h"
+ 1242              		.file 3 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
+ 1243              		.file 4 "micro_ros_stm32cubemx_utils/microros_static_library/libmicroros/microros_include/rcutils/
+ 1244              		.file 5 "/usr/include/newlib/assert.h"
+ARM GAS  /tmp/ccP65YDS.s 			page 30
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 position_robotic_arm__functions.c
+     /tmp/ccP65YDS.s:18     .text.robotic_arm_interfaces__msg__PositionRoboticArm__init:0000000000000000 $t
+     /tmp/ccP65YDS.s:26     .text.robotic_arm_interfaces__msg__PositionRoboticArm__init:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__init
+     /tmp/ccP65YDS.s:54     .text.robotic_arm_interfaces__msg__PositionRoboticArm__fini:0000000000000000 $t
+     /tmp/ccP65YDS.s:61     .text.robotic_arm_interfaces__msg__PositionRoboticArm__fini:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__fini
+     /tmp/ccP65YDS.s:76     .text.robotic_arm_interfaces__msg__PositionRoboticArm__are_equal:0000000000000000 $t
+     /tmp/ccP65YDS.s:83     .text.robotic_arm_interfaces__msg__PositionRoboticArm__are_equal:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__are_equal
+     /tmp/ccP65YDS.s:233    .text.robotic_arm_interfaces__msg__PositionRoboticArm__copy:0000000000000000 $t
+     /tmp/ccP65YDS.s:240    .text.robotic_arm_interfaces__msg__PositionRoboticArm__copy:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__copy
+     /tmp/ccP65YDS.s:312    .text.robotic_arm_interfaces__msg__PositionRoboticArm__create:0000000000000000 $t
+     /tmp/ccP65YDS.s:319    .text.robotic_arm_interfaces__msg__PositionRoboticArm__create:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__create
+     /tmp/ccP65YDS.s:399    .text.robotic_arm_interfaces__msg__PositionRoboticArm__destroy:0000000000000000 $t
+     /tmp/ccP65YDS.s:406    .text.robotic_arm_interfaces__msg__PositionRoboticArm__destroy:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__destroy
+     /tmp/ccP65YDS.s:448    .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__init:0000000000000000 $t
+     /tmp/ccP65YDS.s:455    .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__init:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__init
+     /tmp/ccP65YDS.s:623    .rodata.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini.str1.4:0000000000000000 $d
+     /tmp/ccP65YDS.s:637    .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini:0000000000000000 $t
+     /tmp/ccP65YDS.s:644    .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini
+     /tmp/ccP65YDS.s:766    .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__fini:0000000000000064 $d
+     /tmp/ccP65YDS.s:775    .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__create:0000000000000000 $t
+     /tmp/ccP65YDS.s:782    .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__create:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__create
+     /tmp/ccP65YDS.s:860    .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__destroy:0000000000000000 $t
+     /tmp/ccP65YDS.s:867    .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__destroy:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__destroy
+     /tmp/ccP65YDS.s:916    .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__are_equal:0000000000000000 $t
+     /tmp/ccP65YDS.s:923    .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__are_equal:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__are_equal
+     /tmp/ccP65YDS.s:1014   .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__copy:0000000000000000 $t
+     /tmp/ccP65YDS.s:1021   .text.robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__copy:0000000000000000 robotic_arm_interfaces__msg__PositionRoboticArm__Sequence__copy
+     /tmp/ccP65YDS.s:1232   .rodata.__func__.0:0000000000000000 $d
+     /tmp/ccP65YDS.s:1236   .rodata.__func__.0:0000000000000000 __func__.0
+
+UNDEFINED SYMBOLS
+rcutils_get_default_allocator
+__assert_func

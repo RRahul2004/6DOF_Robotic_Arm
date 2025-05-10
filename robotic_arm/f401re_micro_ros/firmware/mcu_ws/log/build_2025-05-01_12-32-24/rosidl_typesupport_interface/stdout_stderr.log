@@ -1,0 +1,9 @@
+Not searching for unused variables given on the command line.
+-- Configuring incomplete, errors occurred!
+[31mCMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:130 (message):
+  Could not find toolchain file: firmware/cmake/dummy_toolchain.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:3 (project)
+
+[0m
+[0mCMake Error: CMake was unable to find a build program corresponding to "Unix Makefiles".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.[0m

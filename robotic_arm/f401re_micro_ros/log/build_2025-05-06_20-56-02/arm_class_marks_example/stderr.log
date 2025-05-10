@@ -1,0 +1,22 @@
+[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/CMakeLists.txt:12 (include):
+  include could not find requested file:
+
+    configLib
+
+[0m
+[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:5 (include):
+  include could not find requested file:
+
+    configLib
+
+[0m
+[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:6 (include):
+  include could not find requested file:
+
+    configDsp
+
+[0m
+[31mCMake Error at /home/rahul/robotic_arm/f401re_micro_ros/Drivers/CMSIS/DSP/Source/BasicMathFunctions/CMakeLists.txt:34 (configLib):
+  Unknown CMake command "configLib".
+
+[0m
